@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Slash</title>
+    <item>
+      <title>Version 1.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.1</link>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>2</sparkle:minimumAutoupdateVersion>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.1/Slash-1.1.dmg" length="3751401" type="application/octet-stream" sparkle:edSignature="rdJE/Z9jWCuA6acOgfqqz5exLwt1TgLBu3P3jUVbSa8AfXkqhF/IaXWB4qmnzw5g/YBSZtCrYtxyHI/8KBMiCw==" />
+    </item>
+  </channel>
+</rss>
