@@ -234,5 +234,13 @@
       <sparkle:minimumAutoupdateVersion>30</sparkle:minimumAutoupdateVersion>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.19.1/Slash-1.19.1.dmg" length="5936503" type="application/octet-stream" sparkle:edSignature="fSQMeIBpQ+KR0rjvyFcKlANTHqGUulr2aiYoIROpF6sLaVelVymetSdmnW4HTQzsUs+w0ijCbGWztvQ2JDCEAg==" />
     </item>
+    <item>
+      <title>Version 1.20.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.20.0</link>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>1.20.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>31</sparkle:minimumAutoupdateVersion>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.20.0/Slash-1.20.0.dmg" length="5960303" type="application/octet-stream" sparkle:edSignature="BjvYoW3ybkyMkTu6aY7HZQeA4LBZF9Drp3/KPPNbiemOimtg3F45e+Vy1OMN0eehWHvVrdOewwlLZDcdzng2Ag==" />
+    </item>
   </channel>
 </rss>
