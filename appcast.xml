@@ -338,5 +338,42 @@
       <sparkle:minimumAutoupdateVersion>43</sparkle:minimumAutoupdateVersion>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.27.4/Slash-1.27.4.dmg" length="6572871" type="application/octet-stream" sparkle:edSignature="ZR40B7Dz/9lMhFYBp4rIs0hm3u21zJ3uNiFNVptw/0X2+po1mj349KwQgadL0StNEyJI7MOsZWhWaWyzC+cJBQ==" />
     </item>
+    <item>
+      <title>Version 1.27.5</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.27.5</link>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>1.27.5</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>44</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Lists that write themselves.</strong> Press Return on a bullet, numbered, or checklist item and the next one starts automatically (Return on an empty item ends the list). Tab and Shift-Tab indent and outdent list items.</li>
+          <li><strong>⌘B, ⌘I, and ⌘K in notes.</strong> Bold or italicize the selection (press again to undo it), or wrap it as a link with the cursor ready for the URL.</li>
+          <li><strong>Richer note rendering.</strong> Numbered lists, blockquotes, and horizontal rules (<code>---</code>) now render properly instead of showing raw markdown.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Typing in long notes stays fast.</strong> Notes now save shortly after you pause typing instead of re-encrypting the whole store on every keystroke — and still save instantly when you switch notes, close, or quit.</li>
+          <li><strong>Notes look better.</strong> Headings render at their proper sizes, bullets get real bullet points, and line spacing gives text room to breathe. Notes pasted with Windows-style line endings no longer collapse into one giant heading.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.27.5/Slash-1.27.5.dmg" length="6593548" type="application/octet-stream" sparkle:edSignature="ylLVvOYmu1RtE4xfV2RUF6UovgRK2K4MuVvpOm/p7R190Cvla3Ee0l9h1tLMNDRlKxFpq6LHgRvXOnT6kFYrAQ==" />
+    </item>
   </channel>
 </rss>
