@@ -375,5 +375,50 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.27.5/Slash-1.27.5.dmg" length="6593548" type="application/octet-stream" sparkle:edSignature="ylLVvOYmu1RtE4xfV2RUF6UovgRK2K4MuVvpOm/p7R190Cvla3Ee0l9h1tLMNDRlKxFpq6LHgRvXOnT6kFYrAQ==" />
     </item>
+    <item>
+      <title>Version 1.27.6</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.27.6</link>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>1.27.6</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>45</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Notes read and edit on one surface.</strong> No more flip between a reading view and an editor: a note opens looking fully formatted, clicking in places the cursor right there, and only the line you're on reveals its markdown markers — bold, headings, and links stay styled as you type, Obsidian-style. Esc puts the note back to reading.</li>
+          <li><strong>Click a checkbox to toggle it.</strong> Click the box of a <code>- [ ]</code> item to check or uncheck it — no need to edit the text. Checked items show struck through.</li>
+          <li><strong>Find inside a note.</strong> ⌘F opens a find bar scoped to the note you're reading (⌘F elsewhere still searches your lists). Esc dismisses the bar, then the note.</li>
+          <li><strong>Move and delete lines.</strong> ⌥↑ and ⌥↓ move the current line (or selection) up and down; ⌘⇧K deletes it.</li>
+          <li><strong><code>[[</code> closes itself.</strong> Typing <code>[[</code> adds the closing <code>]]</code> with the cursor between, the link suggestions still pop up, and picking one never leaves stray brackets.</li>
+          <li><strong>A details sidebar for notes.</strong> A toggle in the note's top-right corner opens a column with where the note is linked from, created/updated times, its folder and source, and word counts — collapse it and the note takes back the full width.</li>
+          <li><strong>Working undo in notes.</strong> ⌘Z / ⇧⌘Z now work in the note editor, scoped to the note you're editing.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Bullets look like bullets.</strong> List dashes render as • at every nesting level, wrapped lines align under their item's text, and blockquotes sit indented with dimmed text.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Sync can't interrupt your typing.</strong> A sync arriving while you're editing a note no longer replaces the text under your cursor (which could jump the caret and clear undo) — it waits until you leave the note, and your newer edits always win.</li>
+          <li><strong>Typing in big notes is smoother.</strong> Each keystroke now restyles only the line you changed instead of the whole note, which also removes a subtle flicker when moving between lines.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.27.6/Slash-1.27.6.dmg" length="6647646" type="application/octet-stream" sparkle:edSignature="7MimRc0MGZQSnQ4fFefElgMkbsrfMxRhvIjK/057NVtkNrAi3Bq5DbbMOetqFboXloWIm6XuAuspgT0wok1DBQ==" />
+    </item>
   </channel>
 </rss>
