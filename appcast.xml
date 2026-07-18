@@ -420,5 +420,44 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.27.6/Slash-1.27.6.dmg" length="6647646" type="application/octet-stream" sparkle:edSignature="7MimRc0MGZQSnQ4fFefElgMkbsrfMxRhvIjK/057NVtkNrAi3Bq5DbbMOetqFboXloWIm6XuAuspgT0wok1DBQ==" />
     </item>
+    <item>
+      <title>Version 1.28.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.28.0</link>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>1.28.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>47</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>One shared Notes editor across Mac and Android.</strong> Notes now use the same Markdown engine and document format on both platforms, with headings, bold text, lists, task items, and <code>[[wikilinks]]</code> behaving consistently.</li>
+          <li><strong>Notes are agent-accessible.</strong> Authorized agents can create, read, and append to notes through the encrypted sync service without needing an interactive app sign-in.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Notes stay canonical Markdown.</strong> Editing, syncing, and agent operations preserve the plain-text source so notes remain portable and future clients can use the same data without translating a proprietary editor format.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>The Android editor fills the available screen and selects text correctly.</strong> The shared editor no longer collapses to a zero-height WebView, and touch selection—including double-tap word selection—works on phone.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.28.0/Slash-1.28.0.dmg" length="6872975" type="application/octet-stream" sparkle:edSignature="5IkgNhnTRQjX+In/DqEOLf4n6m9sNU5WCZUR3vkmS8DfzIAYqivvg8TdX5ABs6exxmHGhahIswQWsRXP5rdOBw==" />
+    </item>
   </channel>
 </rss>
