@@ -459,5 +459,45 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.28.0/Slash-1.28.0.dmg" length="6872975" type="application/octet-stream" sparkle:edSignature="5IkgNhnTRQjX+In/DqEOLf4n6m9sNU5WCZUR3vkmS8DfzIAYqivvg8TdX5ABs6exxmHGhahIswQWsRXP5rdOBw==" />
     </item>
+    <item>
+      <title>Version 1.29.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.29.0</link>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>1.29.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>48</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Choose your dictation engine.</strong> Settings ▸ Dictation has a new Local engine picker naming the exact model that transcribes on your Mac: Apple SpeechAnalyzer (the macOS 26 system model, the only one that honors My words), NVIDIA Parakeet v3 (a one-time ~600 MB download and the fastest option, 25 European languages), or OpenAI Whisper large-v3-turbo (~630 MB, about 100 languages). The downloaded engines run fully offline — audio never touches disk or leaves your Mac.</li>
+          <li><strong>Dictation on macOS 14 and 15.</strong> Pick Parakeet or Whisper and voice dictation no longer requires macOS 26 (Apple silicon Macs).</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Hosted dictation returns faster.</strong> Audio now uploads compressed — about 8× smaller — so transcripts come back sooner, especially for longer dictations and on slower connections.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>The first dictation after launch no longer fails with "No audio from…".</strong> A just-woken microphone could deliver pure silence for the whole first session (and the second try would mysteriously work). Slash now detects the dead start and restarts capture mid-recording without losing any words.</li>
+          <li><strong>A brief network blip no longer downgrades a dictation.</strong> Hosted transcription retries once before falling back to on-device.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.29.0/Slash-1.29.0.dmg" length="9910604" type="application/octet-stream" sparkle:edSignature="jpis89aMjPRS95uzA8BkqpOWt+mpe0xxIqiXO7sywKP3A9ShOtdu2dQWQEvTBeQ5E7ZBGOD0awdc7DV+u8p2Aw==" />
+    </item>
   </channel>
 </rss>
