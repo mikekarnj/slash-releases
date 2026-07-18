@@ -499,5 +499,51 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.29.0/Slash-1.29.0.dmg" length="9910604" type="application/octet-stream" sparkle:edSignature="jpis89aMjPRS95uzA8BkqpOWt+mpe0xxIqiXO7sywKP3A9ShOtdu2dQWQEvTBeQ5E7ZBGOD0awdc7DV+u8p2Aw==" />
     </item>
+    <item>
+      <title>Version 1.30.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.30.0</link>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>1.30.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>49</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>The standard editing shortcuts, in Notes.</strong> ⌘B and ⌘I toggle bold and italic (and untangle themselves correctly on already-styled text), ⌘K makes a link, ⇧⌘L toggles a checkbox, ⌘1–⌘3 set heading levels, and pasting a URL over selected text turns it into a link.</li>
+          <li><strong>Find in note.</strong> ⌘F opens find and replace inside the note editor.</li>
+          <li><strong>Adjustable note text size.</strong> ⌘+ and ⌘− zoom the editor text, ⌘0 resets, and your choice sticks across launches.</li>
+          <li><strong>Spelling, like every Mac text field.</strong> The note editor now underlines misspellings in red and applies system autocorrect as you type.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Notes read clean.</strong> Markdown markers get out of the way while you read: bold shows as <strong>bold</strong> without the asterisks, heading hashes hide, dashes render as round bullets, finished tasks cross themselves out, and wrapped list lines align under their text. Put the caret on a line to reveal and edit its markers — the note itself stays plain Markdown.</li>
+          <li><strong>Links open with a plain click.</strong> <code>[[wikilinks]]</code> and web links in a note open directly — no modifier key needed.</li>
+          <li><strong>A quieter Library.</strong> The notes list drops its subtitle line and the note's info column drops its header, leaving the content itself.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Typing in notes is fast again.</strong> Every keystroke was doing whole-document work behind the scenes, which made long notes feel sluggish — several layers of that are gone, and deleting through indented bullets no longer makes the cursor flutter.</li>
+          <li><strong>Bold always renders.</strong> Selecting a word with a stray space or a list dash and pressing ⌘B used to produce styling that could never display; the selection now snaps to what can actually be bolded.</li>
+          <li><strong>Note text was nearly invisible in mixed dark/light setups.</strong> With the system in dark mode and Slash in light, the editor painted light text on a light background.</li>
+          <li><strong>A crashed note pane recovers itself.</strong> If the editor's underlying web process died, the pane went blank and silently swallowed typing until you switched notes; it now reloads in place.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.30.0/Slash-1.30.0.dmg" length="9937966" type="application/octet-stream" sparkle:edSignature="QKjO8LlFVp89YQ0JU1mplUwHWsaaRzg+2yUmAJvyda72eGecEvgUGMWsLYOrKsoLPZhj/L6z4+2wxxN+yg4xBw==" />
+    </item>
   </channel>
 </rss>
