@@ -575,5 +575,42 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.30.1/Slash-1.30.1.dmg" length="9938000" type="application/octet-stream" sparkle:edSignature="b8aIVswqLLrnhbSG5CdAI6AtyFY2hN8dOKaI0xZwKzMyggjG882QZGzl+l87mqTIEfUEMVrXtGUT2Go7kyIbCQ==" />
     </item>
+    <item>
+      <title>Version 1.31.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.31.0</link>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>1.31.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>51</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Images in notes.</strong> Paste, drag in, or insert an image and it lives right inside the note, rendered where you put it and stored encrypted like everything else.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Enter on a bullet no longer skips a line.</strong> Pressing Return at the end of a list item now starts the next item right away, instead of dropping a blank row that the cursor jumped past.</li>
+          <li><strong>Deleting a bullet back to the start no longer jiggles the cursor.</strong> Backspacing through the “- ” now removes the marker in one press (or outdents a nested item) instead of leaving invisible spaces the cursor floated over.</li>
+          <li><strong>Indenting a list item is instant again.</strong> Pressing Enter and then Tab in quick succession no longer lags, and Tab now indents a full level so nesting is easy to see.</li>
+          <li><strong>Typing in a long note stays smooth.</strong> The editor no longer rebuilds the whole window on every keystroke, so fast typing and editing keep up with you.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.31.0/Slash-1.31.0.dmg" length="9962898" type="application/octet-stream" sparkle:edSignature="jboBYphDNii0z00tvgTSIkjwY5Gj+cxZ9dvqmKhMPIX2xUEPkKcsiQ6n/UI6ImFvoPJ8EqmeI/NZxXndVbENBA==" />
+    </item>
   </channel>
 </rss>
