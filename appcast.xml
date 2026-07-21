@@ -612,5 +612,47 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.31.0/Slash-1.31.0.dmg" length="9962898" type="application/octet-stream" sparkle:edSignature="jboBYphDNii0z00tvgTSIkjwY5Gj+cxZ9dvqmKhMPIX2xUEPkKcsiQ6n/UI6ImFvoPJ8EqmeI/NZxXndVbENBA==" />
     </item>
+    <item>
+      <title>Version 1.32.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.32.0</link>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>1.32.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>52</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Wiki-link suggestions are always current.</strong> Typing <code>[[</code> now looks up your notes live, so a note you created seconds ago shows up in the autocomplete immediately.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Typing in notes is dramatically faster.</strong> The editor was rebuilt so keystrokes go straight to the text — no more app-wide work on every character. Typing, Tab, and switching notes all land in a few milliseconds.</li>
+          <li><strong>Tab behaves like a proper outliner.</strong> Tab nests a bullet one level under the item above it (and only then), Shift-Tab un-nests it — and tabbing can never accidentally turn your list into a code block again.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>No more flash of raw markdown while typing.</strong> Bullets, headings, and checked-off tasks style themselves the instant you type them, instead of showing <code>-</code> or <code>#</code> for a beat first.</li>
+          <li><strong>Typing a dash under a paragraph no longer blows it up into a heading.</strong> Starting a bullet below text used to momentarily restyle the paragraph above as a giant title; headings now come only from <code>#</code>.</li>
+          <li><strong>Quick captures can't be lost to fast clicks.</strong> Clicking away from the capture window a moment after typing now saves exactly what you typed, and quitting the app mid-sentence keeps every character.</li>
+          <li><strong>Notes edits, syncs, and agent updates can no longer overwrite each other.</strong> A round of hardening closed several rare timing windows where a note update from sync or a capture routed into an open note could clash with what you were typing.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.0/Slash-1.32.0.dmg" length="9970070" type="application/octet-stream" sparkle:edSignature="WJsMIr761vnkSIexyQxNxaffSCIf0L0N1zmD0NhxSYVJieeMWP5/ZzajuZoXAMvywZtrIF9eidXq4tHP6Cy7Cw==" />
+    </item>
   </channel>
 </rss>
