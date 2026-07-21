@@ -654,5 +654,44 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.0/Slash-1.32.0.dmg" length="9970070" type="application/octet-stream" sparkle:edSignature="WJsMIr761vnkSIexyQxNxaffSCIf0L0N1zmD0NhxSYVJieeMWP5/ZzajuZoXAMvywZtrIF9eidXq4tHP6Cy7Cw==" />
     </item>
+    <item>
+      <title>Version 1.32.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.32.1</link>
+      <sparkle:version>53</sparkle:version>
+      <sparkle:shortVersionString>1.32.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>53</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Changed</h4>
+          <ul>
+          <li><strong>Notes open instantly.</strong> The editor now warms up at launch and is reused as you move between notes, so opening a note no longer has a brief loading pause.</li>
+          <li><strong>Tab always indents.</strong> Press Tab anywhere on a list item to nest it another level — it no longer has to sit directly under another item, and deeply-indented lines stay proper list items.</li>
+          <li><strong>Indenting is perfectly smooth.</strong> The word, the bullet, and the cursor now move together on the same frame when you press Tab, instead of one trailing a beat behind.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Notes can't be lost to Undo after switching.</strong> Pressing ⌘Z right after switching to a different note could overwrite it with the previous note's text — fixed.</li>
+          <li><strong>Typing in the Library is never interrupted.</strong> A background refresh could pull focus off the note mid-sentence; the editor keeps it now.</li>
+          <li><strong>Fixed a formatting crash</strong> triggered by a link with an empty or just-deleted label.</li>
+          <li><strong>Copying a snippet is safe again</strong> — a trailing newline can no longer auto-run when you paste it into a terminal.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.1/Slash-1.32.1.dmg" length="9980171" type="application/octet-stream" sparkle:edSignature="nq89U/2vvchW9Q2Xv7oGDBIiuMpiDpAYC1wS5bqPO0uhNadM29jHByQ4s8Maneh+NksAD8q2fWBBn2yenLBLAQ==" />
+    </item>
   </channel>
 </rss>
