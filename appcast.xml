@@ -693,5 +693,45 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.1/Slash-1.32.1.dmg" length="9980171" type="application/octet-stream" sparkle:edSignature="nq89U/2vvchW9Q2Xv7oGDBIiuMpiDpAYC1wS5bqPO0uhNadM29jHByQ4s8Maneh+NksAD8q2fWBBn2yenLBLAQ==" />
     </item>
+    <item>
+      <title>Version 1.32.2</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.32.2</link>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>1.32.2</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>54</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Start a bullet with just a dash.</strong> Type <code>-</code> on an empty line and Slash adds the space for you, so you're straight into the item. One Backspace gives you back a lone dash (for a <code>---</code> divider).</li>
+          <li><strong>Shift-Tab out of a list.</strong> Shift-Tab at the very start of a bullet removes the bullet and drops the line back to plain text.</li>
+          <li><strong>Blockquotes render.</strong> A line starting with <code>&gt;</code> now shows a clean left bar instead of the raw marker.</li>
+          <li><strong>Brackets and quotes auto-close.</strong> Type <code>(</code>, <code>[</code>, or <code>"</code> and the closer is added for you — and this plays nicely with <code>[[</code> wiki-link autocomplete.</li>
+          <li><strong>Wiki-links read cleanly.</strong> <code>[[Note]]</code> now hides its brackets in the text and opens the note when you click it; the raw form comes back on the line you're editing.</li>
+          <li><strong>Sentence case as you type.</strong> The first letter of a sentence capitalizes itself. One Backspace undoes it, so a deliberately-lowercase line (or <code>iOS</code>) costs a single keystroke.</li>
+          <li><strong>The cursor blinks again.</strong></li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>The cursor and bullet stay locked together.</strong> On macOS the caret could paint a step ahead of its bullet while the bullet lagged behind; the editor now keeps the caret, bullet, and text on the same frame so they move as one.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.2/Slash-1.32.2.dmg" length="9982692" type="application/octet-stream" sparkle:edSignature="T7E7eN3Vf1XZ03IKv0cOTGVh9teFRMb6mBQYOneB7pSDPL0mEXfs2JLiI9mJy784cXzWPIiaJdfH+H/IodxODw==" />
+    </item>
   </channel>
 </rss>
