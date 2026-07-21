@@ -733,5 +733,38 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.2/Slash-1.32.2.dmg" length="9982692" type="application/octet-stream" sparkle:edSignature="T7E7eN3Vf1XZ03IKv0cOTGVh9teFRMb6mBQYOneB7pSDPL0mEXfs2JLiI9mJy784cXzWPIiaJdfH+H/IodxODw==" />
     </item>
+    <item>
+      <title>Version 1.32.3</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.32.3</link>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>1.32.3</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>55</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixed</h4>
+          <ul>
+          <li><strong>Click a wiki-link to open it.</strong> A plain click on a <code>[[linked note]]</code> in your text now jumps straight to that note.</li>
+          <li><strong>Spellcheck underlines are back.</strong> Misspelled words get the red squiggle again as you type.</li>
+          <li><strong>Opening the first note is instant.</strong> The editor now finishes warming up at launch, so the first note you open no longer has a brief hitch.</li>
+          <li><strong>Arrow keys move through your notes.</strong> Up/down now walk the notes list (and the clipboard and dictation lists) after you click into it, matching the main Library list.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.3/Slash-1.32.3.dmg" length="9984005" type="application/octet-stream" sparkle:edSignature="t4seK8GxwzJtmflsn2ZSg5P/bCnJco4cIB6ZfA/iq7I1acM0yOfubjI4FPGkDXNgU+V7MBNu10cEpWk481yZDg==" />
+    </item>
   </channel>
 </rss>
