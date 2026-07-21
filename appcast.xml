@@ -766,5 +766,36 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.3/Slash-1.32.3.dmg" length="9984005" type="application/octet-stream" sparkle:edSignature="t4seK8GxwzJtmflsn2ZSg5P/bCnJco4cIB6ZfA/iq7I1acM0yOfubjI4FPGkDXNgU+V7MBNu10cEpWk481yZDg==" />
     </item>
+    <item>
+      <title>Version 1.32.4</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.32.4</link>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>1.32.4</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>56</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixed</h4>
+          <ul>
+          <li><strong>Clicking a wiki-link really opens it now.</strong> The previous fix didn't take on a real click; a <code>[[linked note]]</code> in your text now jumps to that note the moment you click it.</li>
+          <li><strong>Arrow keys really move through your lists now.</strong> After you click a note (or a clipboard or dictation item), ↑/↓ walk the selection through the list — matching the main Library list — instead of doing nothing or moving the sidebar.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.4/Slash-1.32.4.dmg" length="10010183" type="application/octet-stream" sparkle:edSignature="fYqCvL6WivR7W53zUS++Q8B+MERBwpvjXY++7FOARSlQuY5FNe21thudlMW+OTj3tEul6Vo/062SmaI5nZn5AQ==" />
+    </item>
   </channel>
 </rss>
