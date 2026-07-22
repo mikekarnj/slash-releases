@@ -797,5 +797,50 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.32.4/Slash-1.32.4.dmg" length="10010183" type="application/octet-stream" sparkle:edSignature="fYqCvL6WivR7W53zUS++Q8B+MERBwpvjXY++7FOARSlQuY5FNe21thudlMW+OTj3tEul6Vo/062SmaI5nZn5AQ==" />
     </item>
+    <item>
+      <title>Version 1.33.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.33.0</link>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>1.33.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>58</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>A <code>/</code> menu inside your notes.</strong> Type <code>/</code> in a note (on the Mac) for a menu of blocks (headings, lists, task lists, callouts, code, quotes, dividers, dates), inline formatting (bold, italic, strikethrough, highlight, inline code, links), and your whole command library — inserted right where you're typing.</li>
+          <li><strong>Link a note — or create it — as you type <code>[[</code>.</strong> The note picker is redesigned, and when the title doesn't exist yet a <strong>Create "…"</strong> row makes the note and links it in one keystroke.</li>
+          <li><strong>Real, clickable checkboxes.</strong> Task lines (<code>- [ ]</code>) render as actual checkboxes — click one to check or uncheck it.</li>
+          <li><strong>A formatting toolbar for selected text.</strong> Highlight text in a note and a small bar of bold / italic / link / highlight / code appears above it.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Notes is the home screen.</strong> The Library opens on your Notes by default, and Notes sits at the top of the sidebar.</li>
+          <li><strong>Collapsible sidebar sections.</strong> Library, History, and Folders each get a disclosure arrow to collapse or expand; your choice sticks.</li>
+          <li><strong>Roomier notes.</strong> More breathing room after bullets, cleanly aligned checkboxes, and a lighter empty-note prompt — "Untitled note" and "Write something or press '/' for options".</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Opening a note no longer hitches.</strong> The first note you opened used to freeze for a second or two while the editor warmed up; it now boots ahead of time.</li>
+          <li><strong>Blank notes don't pile up.</strong> Create a note and leave it without typing anything and it's quietly discarded instead of becoming a stray "Untitled" row — and a note you actually started is never lost.</li>
+          <li><strong>Pointer cursor on backlinks and a note's source link,</strong> so it's clear they're clickable.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.33.0/Slash-1.33.0.dmg" length="10061415" type="application/octet-stream" sparkle:edSignature="35NN0FkSl4+TRtLz2FDszQdhPD86MWGXZVGtEtOcK8oRzMtFetAtbaX2pF3q30rkRhxcpa6lOnlN2NSz682XDw==" />
+    </item>
   </channel>
 </rss>
