@@ -842,5 +842,56 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.33.0/Slash-1.33.0.dmg" length="10061415" type="application/octet-stream" sparkle:edSignature="35NN0FkSl4+TRtLz2FDszQdhPD86MWGXZVGtEtOcK8oRzMtFetAtbaX2pF3q30rkRhxcpa6lOnlN2NSz682XDw==" />
     </item>
+    <item>
+      <title>Version 1.34.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.34.0</link>
+      <sparkle:version>59</sparkle:version>
+      <sparkle:shortVersionString>1.34.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>59</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Capture anything from the Command Bar.</strong> Press ⌃⌥/ anywhere, type a thought, hit ⌘↩ — it's saved to Notes. Paste an image, drop in a link, stage a file from the new <strong>+</strong> menu, or grab the page you're reading. Saving never interrupts what you're doing.</li>
+          <li><strong>Links that know what they are.</strong> A saved link is recognized as a <strong>Video, Article, Product, Post, Audio, or Website</strong> — instantly, from the link itself, with no AI involved — and its card shows the category. Products show their price when the store publishes one; tweets and Reddit posts save their actual text, visible on the card and searchable.</li>
+          <li><strong>YouTube video summaries.</strong> Save a YouTube link and Slash watches it for you — an overview plus key points appears as a <strong>Summary block</strong> at the top of the note (via Slash AI, or your own Gemini/OpenRouter key). Collapse it, delete it for good, or hit <strong>Add to note</strong> to make it part of your editable text — the note body itself is always yours; AI never writes into it. Behind the same "Summarize captures automatically" switch as before.</li>
+          <li><strong>Same-link stacking.</strong> Saving a URL you've already captured adds to the existing card instead of creating a duplicate — the toast tells you which note it landed on.</li>
+          <li><strong>Screenshots get their own home.</strong> Bare <code>/screenshot</code> grabs live under <strong>History ▸ Screenshots</strong>, out of your notes; add words to one and it moves into Notes.</li>
+          <li><strong>Select multiple notes.</strong> ⇧-click for a range, ⌘-click to toggle — then move them to a folder or delete them together.</li>
+          <li><strong>A clickable preview in link notes.</strong> A saved link's note shows its picture (a video's frame, an article's image) — click it to open the page; videos wear a play badge.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>One Notes pool, no Inbox.</strong> Everything you capture lands in <strong>Notes</strong> and stays there, filed or not. Folders are optional lenses — filing a note never removes it from Notes.</li>
+          <li><strong>Voice types, Ramble files.</strong> Voice dictation types into whatever you're writing; Ramble records a rambling thought and files it as a tidy note.</li>
+          <li><strong>One hotkey.</strong> ⌃⌥/ opens the bar (and reads the page you're on, with permission); ⌃⌥N opens a fresh note in the editor.</li>
+          <li><strong>Calmer cards.</strong> Note cards use quiet grey icon tiles with the category written in the meta line — no thumbnails, no color noise. Rows show a markdown link's text, never the raw syntax.</li>
+          <li><strong>Sharper video summaries.</strong> Summaries now open with the video's actual point and every bullet carries a concrete detail — no more "The video showcases…" filler.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>The bar's phantom white space is gone for good</strong> — the panel now owns its size, so nothing can quietly stretch it.</li>
+          <li><strong>Clicking a link in a note opens it.</strong> Plain click on any link — including bare URLs — opens the browser instead of revealing markup.</li>
+          <li><strong>The Voice → Ramble rename sticks</strong>, even when an older synced copy tries to bring the old command back.</li>
+          <li><strong>Tweet text actually saves.</strong> Twitter moved the endpoint their embeds come from; Slash now calls the new one.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.34.0/Slash-1.34.0.dmg" length="10507002" type="application/octet-stream" sparkle:edSignature="s2dBxTz6qCO5kL+ghobjTmPrNAFc8gwgJ33ZYEakzjWTfIjw4U/CNV2p25O+hvHOKqlaopTgqF3N7k85pjMiCw==" />
+    </item>
   </channel>
 </rss>
