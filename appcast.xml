@@ -924,5 +924,42 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.34.1/Slash-1.34.1.dmg" length="10508440" type="application/octet-stream" sparkle:edSignature="ooq2oW4aULoCdHpxVw0bWA3c1MZQnOigmvowY3bPDdWTWDNKMhBC1tzsmv/Ifs9i1EL6zkIREMST54lS9dA1CA==" />
     </item>
+    <item>
+      <title>Version 1.35.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.35.0</link>
+      <sparkle:version>61</sparkle:version>
+      <sparkle:shortVersionString>1.35.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>61</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Tags.</strong> Type <code>#word</code> in any note and it becomes a quiet grey pill. Click a pill to see every note carrying that exact tag; type <code>#</code> to autocomplete from tags you've already used. No tag manager, nothing to maintain — a tag is just text in your note, so it syncs everywhere today.</li>
+          <li><strong><code>+folder</code> files, <code>#tag</code> labels.</strong> In the Command Bar, <code>+portugal #flights book the fares</code> files the note into Portugal and keeps <code>#flights</code> as a tag. (<code>#</code> no longer files into folders — that job moved to <code>+</code>.)</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Cleaner X titles.</strong> Saved tweets no longer keep the "(4) " unread-count prefix from the browser tab — on every capture path.</li>
+          <li><strong>A deleted summary stays deleted</strong> even if you were editing that note on another Mac at the moment you deleted it.</li>
+          <li><strong>Sync edge-cases.</strong> A note that turns into a link mid-edit now fetches its preview promptly, and dismissed summaries never quietly burn enrichment retries.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.35.0/Slash-1.35.0.dmg" length="10525445" type="application/octet-stream" sparkle:edSignature="4eW61mJhigbCM/stXNjnyDe4/tWUnSt2wchvy5F7dOa7+rjrnWun8HmsHrob0vmVlx1APeLY+RNsZNBEWkuJCw==" />
+    </item>
   </channel>
 </rss>
