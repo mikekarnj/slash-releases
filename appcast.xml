@@ -961,5 +961,41 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.35.0/Slash-1.35.0.dmg" length="10525445" type="application/octet-stream" sparkle:edSignature="4eW61mJhigbCM/stXNjnyDe4/tWUnSt2wchvy5F7dOa7+rjrnWun8HmsHrob0vmVlx1APeLY+RNsZNBEWkuJCw==" />
     </item>
+    <item>
+      <title>Version 1.36.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.36.0</link>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>1.36.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>62</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Chat with your notes.</strong> A new Chat section in the sidebar: ask a question and get an answer drawn only from what you've captured — your notes, links, and dictations — never the open web. Every answer cites the notes it used; click a citation to jump straight to that capture. Follow-up questions understand the conversation ("how much was the first one?"), and you can save any answer as a new note. Conversations are kept in a thread switcher and stay private, powered by the same AI you've already set up (Slash AI or your own key).</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Cleaner saved posts.</strong> A saved tweet shows its text instead of the author's avatar thumbnail, and a quoted tweet now hugs its own text with the author shown once.</li>
+          <li><strong>No title flash when you start a <code>#tag</code></strong> at the beginning of a line.</li>
+          <li><strong>Note summary actions</strong> appear on hover rather than sitting on the note at rest.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.36.0/Slash-1.36.0.dmg" length="10703406" type="application/octet-stream" sparkle:edSignature="UG0mgyzMkQQbx6iYL4l2SR7H2NICYXYQTDtXxDrX6N9X1tlmzvMM2kY5Ci0c7i62QLMPNDGNJ//eqJNkekhhCQ==" />
+    </item>
   </channel>
 </rss>
