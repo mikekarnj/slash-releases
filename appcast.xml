@@ -997,5 +997,41 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.36.0/Slash-1.36.0.dmg" length="10703406" type="application/octet-stream" sparkle:edSignature="UG0mgyzMkQQbx6iYL4l2SR7H2NICYXYQTDtXxDrX6N9X1tlmzvMM2kY5Ci0c7i62QLMPNDGNJ//eqJNkekhhCQ==" />
     </item>
+    <item>
+      <title>Version 1.37.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.37.0</link>
+      <sparkle:version>63</sparkle:version>
+      <sparkle:shortVersionString>1.37.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>63</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Changed</h4>
+          <ul>
+          <li><strong>Faster dictation.</strong> Slash now preps the connection while you're still speaking, and the transcript is polished in the same round trip that transcribes it — the pause after you release the key is much shorter, and the separate "Cleaning…" wait is gone. If polishing ever hiccups, you simply get the raw transcript instantly.</li>
+          <li><strong>Snappier chat follow-ups.</strong> When chatting with your notes on an Anthropic key, your notes are cached between turns instead of re-sent, so follow-up answers start sooner.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Wrapped bullets stay lined up.</strong> A long list item that wraps onto a second line now hangs the continuation under its own text instead of dropping back to the left margin — for bullets, numbered lists, and checkboxes alike.</li>
+          <li><strong>No more freeze when clicking into Slash.</strong> Switching into the app could stall everything for a second (worst right after an update). Fixed.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.37.0/Slash-1.37.0.dmg" length="10714496" type="application/octet-stream" sparkle:edSignature="u7gKX+K8rBY36S8cAj54cTFSKzsrSsPjwzpIINXbCHaV+elY7jOzgWjufrkwLV/CNGZVjoZkuTtonjv5cxpgDQ==" />
+    </item>
   </channel>
 </rss>
