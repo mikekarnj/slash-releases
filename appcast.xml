@@ -1033,5 +1033,44 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.37.0/Slash-1.37.0.dmg" length="10714496" type="application/octet-stream" sparkle:edSignature="u7gKX+K8rBY36S8cAj54cTFSKzsrSsPjwzpIINXbCHaV+elY7jOzgWjufrkwLV/CNGZVjoZkuTtonjv5cxpgDQ==" />
     </item>
+    <item>
+      <title>Version 1.38.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.38.0</link>
+      <sparkle:version>64</sparkle:version>
+      <sparkle:shortVersionString>1.38.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>64</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Changed</h4>
+          <ul>
+          <li><strong>Snippets expand instantly in Mac-native apps.</strong> The brief per-keystroke delay that apps like Slack and WhatsApp need is now applied only to them — in TextEdit, Xcode, Notes, and other native apps your typed trigger disappears in one instant burst before the snippet lands. Browsers, remote-desktop sessions, and unfamiliar apps keep the safe timing.</li>
+          <li><strong>Faster launch.</strong> Slash shows its window immediately and loads your clipboard history, notes, dictations, and chats right after — instead of decrypting everything before drawing anything.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>A frozen app can no longer jam your keyboard.</strong> If the app you're typing into hangs, Slash now backs off in a quarter of a second instead of waiting on it — typing everywhere else keeps working, and expansion resumes as soon as the app does.</li>
+          <li><strong>Expanding in Slack right after it opens.</strong> A freshly launched Slack could silently ignore your triggers. Slash now wakes Slack's accessibility layer on the first attempt, and expansion works from the next keystroke on.</li>
+          <li><strong>First dictation of the day no longer comes up empty.</strong> The mic's warm-up could read as "No audio" on your first try and then work on the second. Slash now detects the warm-up and restarts its audio capture mid-recording, so the first try counts.</li>
+          <li><strong>Deleted items stay deleted across Macs.</strong> With sync on, a device that hadn't synced in a while could bring back items you'd deleted elsewhere. Deletions now stick, and sync got more careful about conflicting edits all around.</li>
+          <li><strong>Password fields stay protected even when an app is slow.</strong> If Slash can't positively tell what kind of field is focused — including when the app is hanging — selection capture for AI now declines rather than guessing.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.38.0/Slash-1.38.0.dmg" length="10733390" type="application/octet-stream" sparkle:edSignature="8K9xUglDUbP9b8tHxZ9S30s1aMKdc23eLAFDI4hvEG16xg3gV8/yjww9QYKMxsCock3tez93LAM2eZc2cUX+BQ==" />
+    </item>
   </channel>
 </rss>
