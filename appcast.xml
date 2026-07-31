@@ -1072,5 +1072,39 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.38.0/Slash-1.38.0.dmg" length="10733390" type="application/octet-stream" sparkle:edSignature="8K9xUglDUbP9b8tHxZ9S30s1aMKdc23eLAFDI4hvEG16xg3gV8/yjww9QYKMxsCock3tez93LAM2eZc2cUX+BQ==" />
     </item>
+    <item>
+      <title>Version 1.39.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.39.0</link>
+      <sparkle:version>65</sparkle:version>
+      <sparkle:shortVersionString>1.39.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>65</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>A Getting Started note.</strong> Slash writes one short note covering the three things worth knowing on day one: capture anything with ⌃⌥/, find an old note by typing a word and pressing Tab, and run a command with <code>/</code>. New installs get it on first launch, and if you're already using Slash it shows up the next time you open the app. Delete it and it stays deleted — on this Mac and every Mac you sync with.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Built-in commands moved to Settings ▸ Features.</strong> <code>/dictate</code>, <code>/paste</code>, <code>/note</code>, <code>/screenshot</code> and the rest no longer sit in your Library next to your own work — the Library, its search, and its counts are now only the snippets and prompts you wrote. Nothing about running them changed: they still answer to their triggers, their hotkeys, and the Command Bar. To switch one off or rename its trigger, open <strong>Settings ▸ Features ▸ Slash Commands</strong>. The Library's Commands lens is now called <strong>AI &amp; Code</strong>, and points you there when it's empty.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.39.0/Slash-1.39.0.dmg" length="10765065" type="application/octet-stream" sparkle:edSignature="gbuKyLSlYVZRjZum92+W3xbqD85I3HnX5JHBLYB5IeQ3ZnNifyLijoBE8KKrnJ3LqpQM0wiMYbqc1yIBtKAYAw==" />
+    </item>
   </channel>
 </rss>
