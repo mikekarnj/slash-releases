@@ -1106,5 +1106,40 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.39.0/Slash-1.39.0.dmg" length="10765065" type="application/octet-stream" sparkle:edSignature="gbuKyLSlYVZRjZum92+W3xbqD85I3HnX5JHBLYB5IeQ3ZnNifyLijoBE8KKrnJ3LqpQM0wiMYbqc1yIBtKAYAw==" />
     </item>
+    <item>
+      <title>Version 1.40.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.40.0</link>
+      <sparkle:version>66</sparkle:version>
+      <sparkle:shortVersionString>1.40.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>66</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Changed</h4>
+          <ul>
+          <li><strong>The Getting Started note now covers dictation</strong> — hold ⌃⌥D and talk, or tap it to keep recording hands-free — and it arrives dated from the day you installed Slash instead of looking decades old. This applies to the copy new installs receive; a note already sitting in your Notes stays exactly as you left it.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Esc cancels a trigger rename.</strong> In Settings ▸ Features, pressing Escape while renaming a built-in command's trigger now puts the field back to its saved value instead of leaving a rejected trigger and its warning on screen.</li>
+          <li><strong>A search that finds nothing now says so.</strong> Searching your Library for something you don't have showed an empty column that read like a glitch; it now tells you there are no matches for what you typed.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.40.0/Slash-1.40.0.dmg" length="10767633" type="application/octet-stream" sparkle:edSignature="vZR4wyLrbUoZfqzKB2V5C4rVKaPR7Lws92ioFPc+jcbA/Kfs9jklpSVkb8aSs71cuYHrhoHfn7PtgqMHD2EyDQ==" />
+    </item>
   </channel>
 </rss>
