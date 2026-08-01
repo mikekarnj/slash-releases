@@ -1141,5 +1141,53 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.40.0/Slash-1.40.0.dmg" length="10767633" type="application/octet-stream" sparkle:edSignature="vZR4wyLrbUoZfqzKB2V5C4rVKaPR7Lws92ioFPc+jcbA/Kfs9jklpSVkb8aSs71cuYHrhoHfn7PtgqMHD2EyDQ==" />
     </item>
+    <item>
+      <title>Version 1.41.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.41.0</link>
+      <sparkle:version>67</sparkle:version>
+      <sparkle:shortVersionString>1.41.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>67</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Paste a link onto words.</strong> Select some text in a note, paste a web address, and the text becomes a link — the thing you'd instinctively try. No dialog, nothing to hunt for.</li>
+          <li><strong>Mark a task done from the keyboard.</strong> ⌘⇧↩ ticks and un-ticks the task your cursor is on.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Markdown gets out of the way, precisely.</strong> Raw syntax now appears only around the thing you're actually editing instead of un-styling the whole line. Write a sentence with three links in it and only the one under your cursor shows its brackets.</li>
+          <li><strong>Your to-dos stay to-dos while you write them.</strong> A checkbox used to flip back to <code>- [ ]</code> the moment your cursor landed on its line. It stays a checkbox now, and the arrow keys and Backspace step over it as one piece instead of crawling through hidden characters.</li>
+          <li><strong>Links open wherever your cursor is.</strong> Clicking a link that looks like a link follows it, even when you're editing elsewhere on the same line. They open when you *release* the mouse, so you can still drag across one to select text, or slide away to change your mind.</li>
+          <li><strong>A shortcut you can't use is refused up front.</strong> Pick a combination another Slash shortcut or macOS itself already owns — ⌘Space, say — and Slash names who has it instead of accepting it and never firing.</li>
+          <li><strong>Switching a feature off frees its shortcut.</strong> Turn off clipboard history, GIF search, notes or dictation and its shortcut goes back to the system for another app to use; turn it back on and Slash takes it back. Your recorded shortcut is kept either way, so nothing needs re-entering.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>A shortcut that never worked can now be replaced.</strong> If the combination you picked was already taken, that shortcut stayed dead for the rest of the session no matter what you chose afterwards — restarting Slash was the only way out.</li>
+          <li><strong>Duplicate shortcuts sort themselves out on launch.</strong> If two Slash shortcuts ended up on the same keys, the second one moves to a free combination rather than silently never firing.</li>
+          <li><strong>⌘ and Escape can be recorded together.</strong> Pressing Escape while recording a shortcut always meant "cancel", which put every combination containing it out of reach.</li>
+          <li><strong>A link to a file no longer opens a dead web page.</strong> <code><a href="readme.md" rel="noopener">spec</a></code> tried to visit a website called readme.md.</li>
+          <li><strong>Toggling a task no longer edits your code samples.</strong> A <code>- [ ]</code> line inside a code block is an example, not a to-do, and the task shortcut leaves it alone.</li>
+          <li><strong>Selecting a whole line toggles only that line.</strong> Marking a task done by selecting its line used to catch the following line too.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.41.0/Slash-1.41.0.dmg" length="10781686" type="application/octet-stream" sparkle:edSignature="RJ7jqDaJsarM8ur9n4CeLyGiNukp5CaKIqZZh7ftn4kO7DK63jG104nGJpWaY9vXpsAdB9Pc4CLDn5OJw+OfBA==" />
+    </item>
   </channel>
 </rss>
