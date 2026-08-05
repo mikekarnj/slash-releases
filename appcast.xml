@@ -1259,5 +1259,38 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.42.1/Slash-1.42.1.dmg" length="10846620" type="application/octet-stream" sparkle:edSignature="tEAq+iMn97Md5Oamxuq/NoAVCqq7xmO/95a+sF5Wrfn529Pfjmf6M+6IgoHuk01f18EUwecL3Z3LY8baO9o2AA==" />
     </item>
+    <item>
+      <title>Version 1.43.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.43.0</link>
+      <sparkle:version>70</sparkle:version>
+      <sparkle:shortVersionString>1.43.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>70</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>One set of text sizes, everywhere.</strong> Notes, commands, clipboard, dictations, and the Command Bar used to each pick their own type sizes — a row title here was bigger than the same title there, and note text towered over everything beside it. The whole app now shares one type scale: matching row titles, matching timestamps, matching headers, on every surface.</li>
+          <li><strong>Note text sits with the rest of the app.</strong> New notes start at a size that belongs next to the lists and panels around it. ⌘+ and ⌘− still adjust it to taste, your choice still sticks, and ⌘0 now returns to this default instead of the old oversized one.</li>
+          <li><strong>The command title no longer gets cut off.</strong> Long command names in the editor fit at the default window width instead of truncating.</li>
+          <li><strong>Smarter AI commands.</strong> Slash AI now runs your AI commands on Claude Sonnet 5, and dictation cleanup on a faster route — better rewrites, quicker polish, no key or setting changes needed.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.43.0/Slash-1.43.0.dmg" length="10843055" type="application/octet-stream" sparkle:edSignature="BBgqFcxIbWRWCFZsC4jjDrPfSYkVDNtt+fa/JGFE88Bc28kqtmk5v9bde8qFoJC48gKUALawzS10ar4QO6gjAw==" />
+    </item>
   </channel>
 </rss>
