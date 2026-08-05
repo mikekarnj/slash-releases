@@ -1189,5 +1189,45 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.41.0/Slash-1.41.0.dmg" length="10781686" type="application/octet-stream" sparkle:edSignature="RJ7jqDaJsarM8ur9n4CeLyGiNukp5CaKIqZZh7ftn4kO7DK63jG104nGJpWaY9vXpsAdB9Pc4CLDn5OJw+OfBA==" />
     </item>
+    <item>
+      <title>Version 1.42.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.42.0</link>
+      <sparkle:version>68</sparkle:version>
+      <sparkle:shortVersionString>1.42.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>68</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>A locked store now explains itself — and offers a way out.</strong> If your encrypted commands, clipboard, or dictation history ever can't be unlocked because the key is truly gone, Slash says so plainly and offers Start Fresh, instead of waiting forever on data it can never open.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Dictation is ready the instant you press the key.</strong> The microphone engine is built once and kept prepared instead of being spun up from scratch every time, and it now survives device switches, sleep, and audio-system restarts mid-sentence. When the mic genuinely needs a moment, the pill shows a brief warming cue rather than silently losing your first words.</li>
+          <li><strong>Cleanup now fixes misheard words.</strong> When the recognizer hears "line pages" but your sentence plainly says "landing pages," cleanup corrects it from context — tightly bounded so it can fix a word or two, never rewrite what you said.</li>
+          <li><strong>See how fast your mic starts.</strong> Settings ▸ Dictation shows a small readout of recent dictation start-up timings — timings only, never what you said.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>The first dictation after launch is as fast as the rest.</strong> Pro status is now read instantly at launch instead of after a network check, so your first dictation no longer falls back to the slower local route.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.42.0/Slash-1.42.0.dmg" length="10841270" type="application/octet-stream" sparkle:edSignature="xDV9lX4LVYvka91IY7B2o1Z6dlD+mFl9xgOSwvXcdw8as1EJARkWHP3cfVE5KI5Hh+abySczNl37dFlZ0fSEAQ==" />
+    </item>
   </channel>
 </rss>
