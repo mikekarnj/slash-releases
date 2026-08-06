@@ -1292,5 +1292,37 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.43.0/Slash-1.43.0.dmg" length="10843055" type="application/octet-stream" sparkle:edSignature="BBgqFcxIbWRWCFZsC4jjDrPfSYkVDNtt+fa/JGFE88Bc28kqtmk5v9bde8qFoJC48gKUALawzS10ar4QO6gjAw==" />
     </item>
+    <item>
+      <title>Version 1.44.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.44.0</link>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>1.44.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>71</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Open the Command Bar by tapping ⌘ twice.</strong> No chord to reach for — tap the Command key twice and the bar appears, from any app. It's the default for new installs; if you already use Slash, your current shortcut is untouched and keeps working. Slash stands the gesture down while you're typing in a password field or using Sticky Keys, and your keyboard shortcut stays available as a backup either way.</li>
+          <li><strong>Set the Command Bar summon like any other shortcut.</strong> The Command Bar row in Settings ▸ Shortcuts now records whichever you prefer: tap ⌘ twice for the gesture, or press a key combination.</li>
+          <li><strong>Report a bug without leaving Slash.</strong> Reporting a bug now opens a form inside the app instead of handing off to your email client.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.44.0/Slash-1.44.0.dmg" length="10952802" type="application/octet-stream" sparkle:edSignature="Th/oLxQx6Ke4y5ljF671/ZpZWQkjNjPZgbzyPwdoiXIxduJlKX3bDfsPrCyMFeIQ2ZnfL0i2BQMxM/dUjbXBCw==" />
+    </item>
   </channel>
 </rss>
