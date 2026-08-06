@@ -1324,5 +1324,43 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.44.0/Slash-1.44.0.dmg" length="10952802" type="application/octet-stream" sparkle:edSignature="Th/oLxQx6Ke4y5ljF671/ZpZWQkjNjPZgbzyPwdoiXIxduJlKX3bDfsPrCyMFeIQ2ZnfL0i2BQMxM/dUjbXBCw==" />
     </item>
+    <item>
+      <title>Version 1.45.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.45.0</link>
+      <sparkle:version>72</sparkle:version>
+      <sparkle:shortVersionString>1.45.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>72</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Choose your dictation engine — and have that choice honored.</strong> Settings ▸ Dictation now has one Engine picker: Automatic (Slash picks for you), Slash Cloud, or an on-device engine — Apple, NVIDIA Parakeet, or Whisper. The engine you pick is the engine that runs, every time. Previously the engine list only chose an offline fallback, and dictation could quietly use the cloud even with an on-device engine selected.</li>
+          <li><strong>Honest failures with one-tap fixes.</strong> If your chosen engine can't run — you're offline, signed out, the model is still downloading, or you've hit your Slash Cloud limit — dictation tells you why and puts the fix on the pill: Sign In, Try Again, or Switch Engine. It never silently substitutes another engine.</li>
+          <li><strong>Your words survive a cloud failure.</strong> If Slash Cloud fails after you've spoken, nothing is lost: the pill offers the on-device transcript, and one tap inserts it. Ramble goes further — the note is always saved, with a small line noting it was transcribed on this Mac.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>First words stop getting clipped.</strong> Slash Cloud recordings now carry a brief lead-in, so the transcriber no longer drops or mangles the first word or two of a dictation.</li>
+          <li><strong>Privacy by structure, not by toggle.</strong> Choosing an on-device engine means your voice never leaves this Mac — by design. The "On-device only" switch is retired; the engine picker is the whole story, and the Slash Cloud option states plainly that audio is processed with zero retention.</li>
+          <li><strong>Cloud pauses now say why.</strong> Hitting the weekly limit, a busy service, or a Pro ceiling each shows its own message and fix — and Slash remembers across relaunch instead of trying and failing again.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.45.0/Slash-1.45.0.dmg" length="11007763" type="application/octet-stream" sparkle:edSignature="ZZn8VWTw4+QBQIeOP6mgoZDzKSLVdWoe8nVRO3vnGyGwT/ZO0R7ElDfWiwWyjgV7r0zYyGFuPuLR7mhCPOT6Dg==" />
+    </item>
   </channel>
 </rss>
