@@ -1362,5 +1362,48 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.45.0/Slash-1.45.0.dmg" length="11007763" type="application/octet-stream" sparkle:edSignature="ZZn8VWTw4+QBQIeOP6mgoZDzKSLVdWoe8nVRO3vnGyGwT/ZO0R7ElDfWiwWyjgV7r0zYyGFuPuLR7mhCPOT6Dg==" />
     </item>
+    <item>
+      <title>Version 1.46.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.46.0</link>
+      <sparkle:version>73</sparkle:version>
+      <sparkle:shortVersionString>1.46.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>73</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>One Library, everything in it.</strong> The sidebar now opens on <strong>All Items</strong> — your snippets, commands, and notes together in a single list, newest edits first. No more hopping between a Notes section and a separate command library to find the thing you just wrote.</li>
+          <li><strong>Browse by type.</strong> A new <strong>Types</strong> section lenses the same pool by kind: Snippets, Commands, or Notes — each with a live count. Folders stay exactly as they were.</li>
+          <li><strong>Sort the Library your way.</strong> A sort control in the list header switches between <strong>Modified</strong> (most recent edits first) and <strong>Name</strong>, and remembers your choice.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>A simpler sidebar.</strong> The separate Notes, Recents, Images, and "AI &amp; Code" rows are gone — notes live under Types, image snippets live with the rest of your snippets, and the Commands lens covers what "AI &amp; Code" did. Library lists now order by your sort choice instead of alphabetically by trigger; the Command Bar remains the fastest way to reach a recently used command.</li>
+          <li><strong>Creating things keeps you where you are.</strong> A new snippet made from the Snippets view stays in view instead of bouncing you elsewhere, and jumping to a note from search or chat always reveals its sidebar row.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>No more ghost text behind the Library.</strong> A faint copy of the last-opened note could show through the sidebar and list after browsing notes. It no longer does.</li>
+          <li><strong>Undo stays inside its note.</strong> Undoing right after switching notes could resurrect the previous note's text inside the new one. Undo history now resets cleanly on every switch.</li>
+          <li><strong>Notes with unusual line endings open correctly.</strong> A note carrying old-style line breaks could open blank; the editor now normalizes them before rendering.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.46.0/Slash-1.46.0.dmg" length="11038791" type="application/octet-stream" sparkle:edSignature="N3jIcn76Z1pLUfkVuVEzK8fj6KO0kcgqrn1f88TzVIfKC8NccTuDTYDt6MUmTIPdzUqOxrACQaMUcFuK7NnTDA==" />
+    </item>
   </channel>
 </rss>
