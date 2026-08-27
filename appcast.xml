@@ -1405,5 +1405,40 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.46.0/Slash-1.46.0.dmg" length="11038791" type="application/octet-stream" sparkle:edSignature="N3jIcn76Z1pLUfkVuVEzK8fj6KO0kcgqrn1f88TzVIfKC8NccTuDTYDt6MUmTIPdzUqOxrACQaMUcFuK7NnTDA==" />
     </item>
+    <item>
+      <title>Version 1.46.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.46.1</link>
+      <sparkle:version>74</sparkle:version>
+      <sparkle:shortVersionString>1.46.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>74</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>A calmer sidebar footer.</strong> Report a Bug and Settings are now proper rows below the folder list instead of a floating strip, so they no longer cover your last folders as you scroll. The feedback card also gets a close button.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Coming back to All Items selects what you just read.</strong> Pick a note in the Notes view, return to All Items or a folder, and that note is the selection — not the command you had selected earlier.</li>
+          <li><strong>Views say what they count.</strong> The Snippets view now counts and searches "snippets," and All Items counts "items," instead of everything calling itself a command.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.46.1/Slash-1.46.1.dmg" length="11046821" type="application/octet-stream" sparkle:edSignature="YwnpWFfmEVWeXdJU7kvvJwN+VV2G8BhOZE7jITiMgmnrERXNGfLp/502qRDy2WrI/t4k4UBI7D9RUnvxMqj0Bw==" />
+    </item>
   </channel>
 </rss>
