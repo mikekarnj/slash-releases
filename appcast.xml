@@ -1440,5 +1440,38 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.46.1/Slash-1.46.1.dmg" length="11046821" type="application/octet-stream" sparkle:edSignature="YwnpWFfmEVWeXdJU7kvvJwN+VV2G8BhOZE7jITiMgmnrERXNGfLp/502qRDy2WrI/t4k4UBI7D9RUnvxMqj0Bw==" />
     </item>
+    <item>
+      <title>Version 1.47.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.47.0</link>
+      <sparkle:version>75</sparkle:version>
+      <sparkle:shortVersionString>1.47.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>75</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>A private Vault for your files.</strong> Drop files into any Library folder — PDFs, images, records you'll want again — and they're encrypted on your Mac like everything else in Slash. Files get their own Types lens with live counts, and search finds them by name and by what's inside them.</li>
+          <li><strong>Your AI agents can use those files — with your permission.</strong> Grant an agent access to a folder once and it can read those files from then on. Every new agent asks first, every access is logged, and Settings ▸ Agent Access shows exactly who can see what — with one-click revoke. Nothing leaves your Mac until you say yes.</li>
+          <li><strong>Dictation learns your words.</strong> Fix a misheard name right after dictating — "carpathy" → "Karpathy" — and Slash quietly adds the correction to My Words, so the next dictation gets it right. A small toast shows each learned word; delete one from My Words and it's never re-learned. Nothing you type is stored or sent anywhere — only the corrected word itself.</li>
+          <li><strong>Capture straight from the Command Bar.</strong> Paste a file or an image into the bar to save it on the spot, or click the new screenshot button to grab a region of your screen into History.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.47.0/Slash-1.47.0.dmg" length="11302664" type="application/octet-stream" sparkle:edSignature="PFnRZ4JOb6559kwn8kr7zakmAGYDaNO68koo0vkhm4iF/SkHwbybGNDUSKvJ5nOez3iBiW/GsfVBBM6btUmDBA==" />
+    </item>
   </channel>
 </rss>
