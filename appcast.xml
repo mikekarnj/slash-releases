@@ -1473,5 +1473,36 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.47.0/Slash-1.47.0.dmg" length="11302664" type="application/octet-stream" sparkle:edSignature="PFnRZ4JOb6559kwn8kr7zakmAGYDaNO68koo0vkhm4iF/SkHwbybGNDUSKvJ5nOez3iBiW/GsfVBBM6btUmDBA==" />
     </item>
+    <item>
+      <title>Version 1.48.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.48.0</link>
+      <sparkle:version>76</sparkle:version>
+      <sparkle:shortVersionString>1.48.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>76</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>Dictation results land faster.</strong> Slash AI dictation now uploads your audio while you're still speaking, so releasing the key waits only on the transcription itself — cutting the typical wait by close to half. If the connection hiccups mid-recording, everything falls back seamlessly to the old path; a cancelled dictation never leaves your Mac unfinished business.</li>
+          <li><strong>Honest speed numbers.</strong> Settings ▸ Dictation now shows separate timing for cloud and on-device transcription, plus how often the faster streaming path was used — so "feels slow" has numbers behind it.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.48.0/Slash-1.48.0.dmg" length="11339001" type="application/octet-stream" sparkle:edSignature="zd6WhTULxgcqlMQE0tin7QLvylEk67KOluMbL7pS1VbN2M6REecWnDPdiTb8agAYp6s5KEIk1ZngockBn6DxCw==" />
+    </item>
   </channel>
 </rss>
