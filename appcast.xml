@@ -1504,5 +1504,47 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.48.0/Slash-1.48.0.dmg" length="11339001" type="application/octet-stream" sparkle:edSignature="zd6WhTULxgcqlMQE0tin7QLvylEk67KOluMbL7pS1VbN2M6REecWnDPdiTb8agAYp6s5KEIk1ZngockBn6DxCw==" />
     </item>
+    <item>
+      <title>Version 1.49.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.49.0</link>
+      <sparkle:version>77</sparkle:version>
+      <sparkle:shortVersionString>1.49.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>77</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Files behave like files.</strong> Click a PDF or image in your Library and see it — a real file view with an inline preview (fit-to-width with zoom controls for PDFs), the extracted text, and a small notes area. Open it in its app, Save As… anywhere, Copy it, drag it out to Finder, double-click to open, or press Space for Quick Look. Folders group files under their own "Files" header, search results and dialogs say "file," and file cards show real thumbnails. Previews decrypt in memory only — bytes touch disk solely when you export.</li>
+          <li><strong>Drop files anywhere.</strong> Drag a file from Finder onto All Items or any open folder to import it — not just onto folder rows in the sidebar.</li>
+          <li><strong>Sub-folders.</strong> Folders can now hold one level of sub-folders, so a collection like MTG organizes by archetype or season. A parent shows everything beneath it grouped by sub-folder, its count and search cover the whole subtree, and dragging a folder onto a folder nests it (menus and the folder editor work too). Deleting a parent never deletes anything — its items unfile and its sub-folders move to the top level.</li>
+          <li><strong>Agent access follows the folder tree.</strong> Granting an agent a folder now covers its sub-folders, current and future — the approval panel says so up front, and each covered sub-folder shows who can read it and via which parent, with one-click revoke.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Dictation names a silent microphone.</strong> If your selected input device produces no audio while dictation warms up, Slash now names the device so you can switch instead of guessing.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Dictation results land faster.</strong> Slash AI dictation now uploads your audio while you're still speaking, so releasing the key waits only on the transcription itself — cutting the typical wait by close to half. If the connection hiccups mid-recording, everything falls back seamlessly to the old path; a cancelled dictation never leaves your Mac unfinished business.</li>
+          <li><strong>Honest speed numbers.</strong> Settings ▸ Dictation now shows separate timing for cloud and on-device transcription, plus how often the faster streaming path was used — so "feels slow" has numbers behind it.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.49.0/Slash-1.49.0.dmg" length="11567998" type="application/octet-stream" sparkle:edSignature="PFtVTNGBScdgdKY5XfhI3sPPxs+xcRKDhPtppIPjOIrlfFi4c79FatIJdy8mf+MPuAGIeAI/sEHyBEknPOS0Aw==" />
+    </item>
   </channel>
 </rss>
