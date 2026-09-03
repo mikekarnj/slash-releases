@@ -1546,5 +1546,41 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.49.0/Slash-1.49.0.dmg" length="11567998" type="application/octet-stream" sparkle:edSignature="PFtVTNGBScdgdKY5XfhI3sPPxs+xcRKDhPtppIPjOIrlfFi4c79FatIJdy8mf+MPuAGIeAI/sEHyBEknPOS0Aw==" />
     </item>
+    <item>
+      <title>Version 1.50.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.50.0</link>
+      <sparkle:version>78</sparkle:version>
+      <sparkle:shortVersionString>1.50.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>78</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Arrange your folders.</strong> Drag a folder to the top or bottom edge of another to put it there — an insertion line shows where it will land — or onto the middle of a top-level folder to nest it. Sub-folders order inside their parent, top-level folders among themselves, and the order syncs between your Macs. Folders you have never moved stay where they always were.</li>
+          <li><strong>Undo any folder move.</strong> ⌘Z puts a folder back where it was — parent and position — whether you moved it by drag, from the "Move to" menu, or from the folder editor. ⇧⌘Z redoes it.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>The moved folder follows you.</strong> After a move the folder is selected and scrolled into view, so you always see where it landed.</li>
+          <li><strong>Refused moves explain themselves.</strong> A folder that can't be nested shows a not-allowed cursor while you drag, and its "Move to" menu stays visible with a disabled "Has sub-folders" entry instead of disappearing. To un-nest, drag a sub-folder to the edge of any top-level folder or use "Move to ▸ Top Level."</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.50.0/Slash-1.50.0.dmg" length="11600006" type="application/octet-stream" sparkle:edSignature="cl3ddNEvwgHos+X3zaqfMc9o3lQsx0SV6xEJpzGzTzVcRdY5nBbsjlK3YNnk9PfHpV+24ShpIUlBDvRuU8h3AQ==" />
+    </item>
   </channel>
 </rss>
