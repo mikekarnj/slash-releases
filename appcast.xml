@@ -1612,5 +1612,43 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.51.0/Slash-1.51.0.dmg" length="11603335" type="application/octet-stream" sparkle:edSignature="qfnm/scrj/14Ym6TxnRJ0345FXvQHcufTbxGXXW1pdIIqxnQD9HzEL2RTfA/VEEob8q8XrHsywiKGEjo6X6jDw==" />
     </item>
+    <item>
+      <title>Version 1.52.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.52.0</link>
+      <sparkle:version>80</sparkle:version>
+      <sparkle:shortVersionString>1.52.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>80</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>Synced images and files always arrive.</strong> If the connection drops after a note has synced but before its image or file finished uploading, Slash now remembers what it still owes and sends it on the next sync — instead of leaving the other Mac with a blank card until you next edit the note.</li>
+          <li><strong>Less busywork on every sync.</strong> A timestamp rounding mismatch made about half of all synced items re-upload once for no reason. They no longer do.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Deleting a file mid-copy is clean and instant.</strong> Deleting a file note while Slash was still copying or exporting it could leave an unencrypted copy on disk until the next launch, and could freeze the app until the export finished. Neither happens now.</li>
+          <li><strong>Huge images no longer eat memory.</strong> A single very high-resolution image inside the size limit could decode to hundreds of megabytes while building a thumbnail. Slash now reads the dimensions first, refuses anything over 40 megapixels, and builds thumbnails without decoding the full image.</li>
+          <li><strong>Quick Look with several Library windows.</strong> With two Library windows open, pressing Space could preview through the wrong window, and closing one window could silently break Quick Look in the other.</li>
+          <li><strong>Duplicated image commands keep their picture.</strong> A duplicated image command shared the original's image behind the scenes, so deleting the original blanked the copy after a relaunch. Copies now own their image.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.52.0/Slash-1.52.0.dmg" length="11609610" type="application/octet-stream" sparkle:edSignature="fWL4mrkDJzejl12Un2JlEumCnV2MUaqnFIP/wljLA+BpPG+dgJaTr4YA1E9wQU5aWUYbebwuMD/u/lK6gDAuBA==" />
+    </item>
   </channel>
 </rss>
