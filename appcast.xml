@@ -1683,5 +1683,36 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.53.0/Slash-1.53.0.dmg" length="11897817" type="application/octet-stream" sparkle:edSignature="dxbVL3e8isT72s/mntx2AQ8S8kTtV2068+pifrLG1+C5hBqY19RSMzRv4xb+JmuLk2g3xj4U1RfLF5GqjPv/DQ==" />
     </item>
+    <item>
+      <title>Version 1.53.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.53.1</link>
+      <sparkle:version>82</sparkle:version>
+      <sparkle:shortVersionString>1.53.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>82</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixed</h4>
+          <ul>
+          <li><strong>Less waiting after a dictation cloud failure.</strong> When dictation falls back to on-device recognition, Slash no longer starts another cleanup request. If cloud cleanup runs out of time, Slash keeps the complete transcript instead of trying cleanup again.</li>
+          <li><strong>Clearer dictation status.</strong> A slow transcription now says “Still transcribing…” rather than incorrectly claiming the speech model is loading.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.53.1/Slash-1.53.1.dmg" length="12008267" type="application/octet-stream" sparkle:edSignature="bR9hRar4NWYpO3TF/QmHiw4k5sLgpHLIYX7oS0Xc86aP4gSXUE8zrrzz2WPIaUvfW7hOVAQ93i7aS9zOchIEBw==" />
+    </item>
   </channel>
 </rss>
