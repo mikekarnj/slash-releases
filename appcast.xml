@@ -1650,5 +1650,38 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.52.0/Slash-1.52.0.dmg" length="11609610" type="application/octet-stream" sparkle:edSignature="fWL4mrkDJzejl12Un2JlEumCnV2MUaqnFIP/wljLA+BpPG+dgJaTr4YA1E9wQU5aWUYbebwuMD/u/lK6gDAuBA==" />
     </item>
+    <item>
+      <title>Version 1.53.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.53.0</link>
+      <sparkle:version>81</sparkle:version>
+      <sparkle:shortVersionString>1.53.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>81</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Share a folder with an agent.</strong> Right from a folder you can now hand an agent access — read, or read and write — for a day, a week, a month, or until you revoke it. Time-boxed access shows a renew prompt before it lapses, and the agent's own request panel now says whether it wants to write, and lets you grant less.</li>
+          <li><strong>Agents can add files to a folder you've shared.</strong> An agent with write access can drop a file into that folder; it shows up in the Library with an "Added by" badge, and a new activity feed in Settings ▸ Agents lists every agent write with one-click Undo while the item is still untouched. Agents never delete, rename, move, or overwrite anything.</li>
+          <li><strong>Folders can stay on your Mac.</strong> Each folder now has a "Where it unlocks" setting: <strong>Anywhere</strong> (syncs and can be shared with agents, as today) or <strong>Mac only</strong>, which keeps the folder's notes and files on this Mac and holds them out of sync. A sub-folder inherits Mac only from its parent. The setting itself syncs between your Macs. Two things to know: anything that synced before you flipped the switch stays on the server until you delete it, and a Mac still running an older version of Slash keeps syncing its edits to those previously synced notes until it updates — so update every Mac before relying on the boundary. A Mac-only folder that still holds items can't be deleted; move or delete them first.</li>
+          <li><strong>Pair a remote agent (preview).</strong> Settings ▸ Agents can generate a one-time pairing code and a single command for an agent running on another machine. The cloud side that completes the pairing switches on in an upcoming update, so codes won't finish approving until then.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.53.0/Slash-1.53.0.dmg" length="11897817" type="application/octet-stream" sparkle:edSignature="dxbVL3e8isT72s/mntx2AQ8S8kTtV2068+pifrLG1+C5hBqY19RSMzRv4xb+JmuLk2g3xj4U1RfLF5GqjPv/DQ==" />
+    </item>
   </channel>
 </rss>
