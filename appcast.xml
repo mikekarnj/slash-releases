@@ -1744,5 +1744,41 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.53.2/Slash-1.53.2.dmg" length="11896805" type="application/octet-stream" sparkle:edSignature="bweIj4bwwSRGzepo2kSBeqhZRdoNwLpO1Vyn32wYrBol43V9gqUiJs3odzD27rf8tpJI1PL0VP9Ba+/n96WsCA==" />
     </item>
+    <item>
+      <title>Version 1.54.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.54.0</link>
+      <sparkle:version>84</sparkle:version>
+      <sparkle:shortVersionString>1.54.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>84</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>One way to add an agent.</strong> Settings ▸ Agents now has a single "Add agent" button that shows one command. Run it on this Mac and the agent connects through the built-in helper with no account needed; run it on any other machine and it connects to Slash's hosted endpoint (Pro). Either way you approve it once in Slash, and no token is ever shown on screen.</li>
+          <li><strong>One agents list.</strong> Every connected agent appears in one list with where it runs, the folders it can see, when it was last active, and a Revoke button. Revoke removes the agent everywhere.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>No VPN or network setup for remote agents.</strong> Remote agents reach Slash over a normal HTTPS endpoint; nothing to install or enroll on the agent's machine. Remote pairing says so in one line if the endpoint isn't available yet.</li>
+          <li><strong>Clearer messages.</strong> Denying an agent no longer shows a "Paired" confirmation, and a lapsed Pro plan explains itself instead of asking you to try again.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.54.0/Slash-1.54.0.dmg" length="11926530" type="application/octet-stream" sparkle:edSignature="eKGe2zr/TMmuHo9hZI4HRJ0XPTjaqfVs632IjIvhwqvi+HiUFhBbUUKAxMeaYa9+ys2bqZhuJsLl606ZRgtFCA==" />
+    </item>
   </channel>
 </rss>
