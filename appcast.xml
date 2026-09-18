@@ -1810,5 +1810,40 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.54.1/Slash-1.54.1.dmg" length="11922438" type="application/octet-stream" sparkle:edSignature="DJlNW09l8AsC1qIUNx8SJd8FKZPqRhtHhp7UlF+rALlE7g2w7kQxfWwcQ2jaBd28qIxsiitgk/IsGpexyE/oDw==" />
     </item>
+    <item>
+      <title>Version 1.55.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.55.0</link>
+      <sparkle:version>86</sparkle:version>
+      <sparkle:shortVersionString>1.55.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>86</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Connect a remote agent by pasting a link.</strong> Any MCP client on another machine now connects the way it connects to other apps: paste the endpoint URL from Settings ▸ Agents, sign in once in your browser, and click Allow. No script to run, no code to copy. The remote endpoint switches on server-side shortly after this release; until then the link says remote agents aren't available yet. Requires Slash Pro.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>+ and ⌘N make a note where notes live.</strong> In Notes, All Items, and inside a folder, the list's + button and ⌘N create a note filed into the open folder instead of opening Quick Add. Snippets and Commands keep creating a command.</li>
+          <li><strong>Agents you share a folder with show up once.</strong> An agent connected from another machine appears in Settings ▸ Agents as "Remote", and sharing a folder with it works the same as for an agent on this Mac.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.55.0/Slash-1.55.0.dmg" length="11898987" type="application/octet-stream" sparkle:edSignature="PkDVipOMVY5yCMt8gNFILWZuJ2fafOR6f78Rd+80Mjd9jYrsI18ongB7yrXLayAhi9mDtmvtuudoZRX6VzeUBQ==" />
+    </item>
   </channel>
 </rss>
