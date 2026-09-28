@@ -1845,5 +1845,44 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.55.0/Slash-1.55.0.dmg" length="11898987" type="application/octet-stream" sparkle:edSignature="PkDVipOMVY5yCMt8gNFILWZuJ2fafOR6f78Rd+80Mjd9jYrsI18ongB7yrXLayAhi9mDtmvtuudoZRX6VzeUBQ==" />
     </item>
+    <item>
+      <title>Version 1.56.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.56.0</link>
+      <sparkle:version>87</sparkle:version>
+      <sparkle:shortVersionString>1.56.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>87</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>A new black-and-white look.</strong> Slash drops its purple for black and white: a new black app icon, black buttons and highlights, and a matching notes editor. In dark mode everything flips to white on dark. Folder colors you picked stay as they are.</li>
+          <li><strong>Cleaner notes list.</strong> Rows show your notes as plain words instead of raw markdown, a note without a title reads "Untitled note" everywhere, and long file names stay readable with their actions tucked below.</li>
+          <li><strong>Settings ▸ Agents starts with the way that works for you.</strong> Pro shows the endpoint link to copy up front; Free leads with connecting an agent on this Mac. The access log folds away behind one toggle.</li>
+          <li><strong>Notes stay quick with lots of notes.</strong> Saving and "Linked from" do less work on every edit.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Revoking an agent removes it completely.</strong> A revoked agent can no longer reconnect with its old sign-in, and its folder access is cleared on the server too.</li>
+          <li><strong>⌘N no longer opens a stray window.</strong> It's New Note or New Command, nothing else.</li>
+          <li><strong>"Delete all notes" moved out of the Notes list.</strong> It's still in Settings, away from where a stray click could reach it.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.56.0/Slash-1.56.0.dmg" length="11741385" type="application/octet-stream" sparkle:edSignature="rJRENT5KA3S8oXw/Baod4ZDjTx4nOdnS3AvoFKMOrSZduEqWPEWmLQOv/MwR9hRubzZ1sARL2y9IFyOkoe0sAw==" />
+    </item>
   </channel>
 </rss>
