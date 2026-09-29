@@ -1884,5 +1884,53 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.56.0/Slash-1.56.0.dmg" length="11741385" type="application/octet-stream" sparkle:edSignature="rJRENT5KA3S8oXw/Baod4ZDjTx4nOdnS3AvoFKMOrSZduEqWPEWmLQOv/MwR9hRubzZ1sARL2y9IFyOkoe0sAw==" />
     </item>
+    <item>
+      <title>Version 1.57.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.57.0</link>
+      <sparkle:version>88</sparkle:version>
+      <sparkle:shortVersionString>1.57.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>88</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Link a note by the name you see.</strong> Typing <code>[[Roadmap]]</code> now links to a note whose first line is "# Roadmap", the same name the list shows. Links typed the old way keep working.</li>
+          <li><strong>Note actions in the menu bar.</strong> File has New Note, New Command, and New Folder; Edit names what it acts on ("Copy Clip", "Delete Note"); Pin Note and Delete Note work from the menu for note lists.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Faster with a big library.</strong> Switching notes, scrolling the Library, and searching with Tab stay quick with thousands of notes and commands, and saving a long note no longer holds up typing.</li>
+          <li><strong>Screenshots use less memory.</strong> Thumbnails load in the background at the size they're shown, and Slash no longer keeps every screenshot it has ever opened or synced in memory.</li>
+          <li><strong><code>[[</code> suggestions keep up as you type,</strong> even with thousands of notes.</li>
+          <li><strong>Tidier notes list.</strong> A pinned note shows its pin on the tile, each row shows the date its list is sorted by, and the sidebar is wide enough for labels with counts.</li>
+          <li><strong>Empty folders say so,</strong> with buttons to add a note or command right there.</li>
+          <li><strong>The editor keeps room to write.</strong> When the window is too narrow for both, the details column steps aside instead of squeezing the editor.</li>
+          <li><strong>A file shows where it came from</strong> as a readable path ("Originally from ~/Documents/…").</li>
+          <li><strong>VoiceOver can find and select notes</strong> in the Notes, folder, and Screenshots lists.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Notes pasted with Windows line breaks get a proper title.</strong> The first line is the title, not the whole note.</li>
+          <li><strong>A "Copied" confirmation stays up for its full time</strong> when you copy twice in a row.</li>
+          <li><strong>A file note keeps its size</strong> after an edit syncs in from another device.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.57.0/Slash-1.57.0.dmg" length="11932591" type="application/octet-stream" sparkle:edSignature="H5RW7bzJM1WW/5HorKm9p//PrBTQzx69NZ988qDgjePXwrcL+H8d7v9fdjvHs6YRO6jut5faBtSoXpLwqztNDw==" />
+    </item>
   </channel>
 </rss>
