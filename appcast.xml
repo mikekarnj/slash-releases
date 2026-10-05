@@ -1932,5 +1932,40 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.57.0/Slash-1.57.0.dmg" length="11932591" type="application/octet-stream" sparkle:edSignature="H5RW7bzJM1WW/5HorKm9p//PrBTQzx69NZ988qDgjePXwrcL+H8d7v9fdjvHs6YRO6jut5faBtSoXpLwqztNDw==" />
     </item>
+    <item>
+      <title>Version 1.58.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.58.0</link>
+      <sparkle:version>89</sparkle:version>
+      <sparkle:shortVersionString>1.58.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>89</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Recently Deleted.</strong> A deleted note waits in Recently Deleted (under History in the sidebar) for 30 days, so you can bring it back. After 30 days it's gone for good. "Delete Immediately" and "Empty" remove notes right away and ask first.</li>
+          <li><strong>Undo a note delete with ⌘Z.</strong></li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Deleting a note no longer asks "are you sure?"</strong> It goes to Recently Deleted instead, and ⌘Z brings it back.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.58.0/Slash-1.58.0.dmg" length="12217855" type="application/octet-stream" sparkle:edSignature="jCnYFa9TnS0/YvPgkjogVQLQJ1KrXNBOaio8W/wxhwMnKq9Ix8vjxtn86obJhWRr9mHPXsQ9H2hWv0Jbi71dAQ==" />
+    </item>
   </channel>
 </rss>
