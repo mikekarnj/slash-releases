@@ -1967,5 +1967,41 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.58.0/Slash-1.58.0.dmg" length="12217855" type="application/octet-stream" sparkle:edSignature="jCnYFa9TnS0/YvPgkjogVQLQJ1KrXNBOaio8W/wxhwMnKq9Ix8vjxtn86obJhWRr9mHPXsQ9H2hWv0Jbi71dAQ==" />
     </item>
+    <item>
+      <title>Version 1.59.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.59.0</link>
+      <sparkle:version>90</sparkle:version>
+      <sparkle:shortVersionString>1.59.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>90</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>Smoother notes editing.</strong> Selecting and formatting large notes stays responsive.</li>
+          <li><strong>Dictation keeps moving.</strong> Optional text cleanup gives up after 1.5 seconds and keeps the original transcript if it is slow or unavailable.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Bold and unbold apply to the whole selection,</strong> including selections with mixed formatting, without changing text outside it.</li>
+          <li><strong>Dictation cleanup better protects what you said.</strong> Numbers, currency, negations, identifiers, and word order have stronger checks. English filler removal also works around unchanged CJK names.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.59.0/Slash-1.59.0.dmg" length="12238470" type="application/octet-stream" sparkle:edSignature="e0VgPezyb/SG0wgl30bRWy4G3j0RiSo1yENriSHTb5/uWEzCwndDflG4ihneFQivDdPxVGyUXR8wLHWvLxLvBg==" />
+    </item>
   </channel>
 </rss>
