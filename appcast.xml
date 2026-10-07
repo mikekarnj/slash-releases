@@ -2003,5 +2003,46 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.59.0/Slash-1.59.0.dmg" length="12238470" type="application/octet-stream" sparkle:edSignature="e0VgPezyb/SG0wgl30bRWy4G3j0RiSo1yENriSHTb5/uWEzCwndDflG4ihneFQivDdPxVGyUXR8wLHWvLxLvBg==" />
     </item>
+    <item>
+      <title>Version 1.60.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.60.0</link>
+      <sparkle:version>91</sparkle:version>
+      <sparkle:shortVersionString>1.60.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>91</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong><code>[]</code> makes a checkbox.</strong> Type <code>[]</code> and a space in a note to get a to-do box, the shortcut you know from other editors. One Backspace turns it back into the literal text.</li>
+          <li><strong><code>---</code> draws a divider.</strong> A line of three dashes (or <code>***</code> / <code>___</code>) now renders as a horizontal rule; put the cursor on it to see the raw characters again.</li>
+          <li><strong>A screenshot shortcut.</strong> Record ⌃⌥S (or your own combo) in Settings ▸ Shortcuts to capture a screenshot straight into Notes.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Typing a dash keeps being a dash.</strong> <code>-</code> no longer turns into a bullet the instant you type it — the bullet appears when you type the space after it, so minus signs and "-ish" asides stay literal.</li>
+          <li><strong>Numbered lists stay in order.</strong> Pressing Enter in the middle of a numbered list, deleting an item, or indenting one with Tab renumbers the rest of the list for you. Lists that deliberately start above 1 keep their starting number.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Enter after a lone dash</strong> inserts a new line instead of silently deleting the dash.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.60.0/Slash-1.60.0.dmg" length="12092750" type="application/octet-stream" sparkle:edSignature="Lbx+/fVCl46bxwh7u61gjmeBvJJ6RBGE1unbn4PkK0kHict8E+mcbEy3f9UQQ+Zv+m/tXUGsSakmkSGpJ2iLAw==" />
+    </item>
   </channel>
 </rss>
