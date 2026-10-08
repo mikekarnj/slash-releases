@@ -2085,5 +2085,46 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.60.1/Slash-1.60.1.dmg" length="12282547" type="application/octet-stream" sparkle:edSignature="YY06jlbMrfbFJ9ptFKbZhk+s91wgboJvq2wslvmLoz1OGnADRuu/psYC8EVjcAwHVV+REjnpbYUzi/E9T+tMBA==" />
     </item>
+    <item>
+      <title>Version 1.60.2</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.60.2</link>
+      <sparkle:version>93</sparkle:version>
+      <sparkle:shortVersionString>1.60.2</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>93</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Security</h4>
+          <ul>
+          <li><strong>Imported archives stay within their size limits.</strong> Slash checks the bytes actually extracted across the full import.</li>
+          <li><strong>Remote images in notes stay inert.</strong> Markdown images cannot trigger network requests from the notes editor.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Clearer Library navigation.</strong> Narrow windows keep the content usable, contrast and appearance controls are improved, and Shift-Tab returns to the previous pane.</li>
+          <li><strong>Faster, more reliable sync.</strong> Accepted changes are saved in batches, and recovery failures stay confined to the affected records.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Dictation keeps your complete text and chosen language.</strong> Cleanup preserves non-English wording and respects the selected language. Slow completion and cancellation no longer leave work running in the background.</li>
+          <li><strong>File previews honor their memory budget.</strong> The preview cache evicts older entries as its accounted byte limit is reached.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.60.2/Slash-1.60.2.dmg" length="12354373" type="application/octet-stream" sparkle:edSignature="zifI1epc67uDvabPa4Z7iGJcABaDl2fF6hifhM36yZeBfUAQwV7FrC7zoLRNHzi1FGdB+Yf0sdIU89oQWcWdCw==" />
+    </item>
   </channel>
 </rss>
