@@ -2126,5 +2126,50 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.60.2/Slash-1.60.2.dmg" length="12354373" type="application/octet-stream" sparkle:edSignature="zifI1epc67uDvabPa4Z7iGJcABaDl2fF6hifhM36yZeBfUAQwV7FrC7zoLRNHzi1FGdB+Yf0sdIU89oQWcWdCw==" />
     </item>
+    <item>
+      <title>Version 1.61.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.61.0</link>
+      <sparkle:version>94</sparkle:version>
+      <sparkle:shortVersionString>1.61.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>94</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Find by meaning and get answers from your captures.</strong> Find can surface related passages and answer a question with links back to the source captures.</li>
+          <li><strong>Encrypted workspace backups.</strong> Export a portable backup, preview its contents, and choose what to restore. Snippet image exports now include their image bytes.</li>
+          <li><strong>Previous text versions.</strong> Preview and restore earlier note and snippet text for up to 30 days.</li>
+          <li><strong>Selected context for agents.</strong> Choose the literal snippets and vocabulary an agent can use, with explicit consent and access expiry.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>Dictation fits the cursor.</strong> Insertion uses the surrounding text to handle spacing and capitalization.</li>
+          <li><strong>Clearer Settings and sync status.</strong> Setup and feature controls have dedicated panes. Device sync health shows confirmed record activity, pending changes, and attachment work.</li>
+          <li><strong>Recovery across Mac and Android.</strong> Large attachments can sync between devices, and Recently Deleted keeps the original deletion date and retention window.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Agent pairing and access updates are more reliable.</strong> Re-pair Codex and retry pending access changes without losing track of their status.</li>
+          <li><strong>Sync recovery preserves account and deletion history.</strong> Recovery and restored backups keep access consent, expiry, and permanent-deletion safeguards.</li>
+          <li><strong>Restored captures refresh their previews.</strong> Changed images and files appear without interrupting other open previews.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.61.0/Slash-1.61.0.dmg" length="13086040" type="application/octet-stream" sparkle:edSignature="sDsPhU8g1LnT32jFaiPcJWsITZOTD+TMBvOAeZ7WUPwEpozkxv/GrEenKkViKAQNE78eJh35x4wV1adK7qBzDA==" />
+    </item>
   </channel>
 </rss>
