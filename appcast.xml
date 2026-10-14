@@ -2205,5 +2205,37 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.62.0/Slash-1.62.0.dmg" length="12857875" type="application/octet-stream" sparkle:edSignature="k4HTUbJvKyaTW6OFKQDVujjstyQ0Dg52Mk4y44wojEismZhd2xWZWV0uHZ+VF7s9yyPUn1KKyiuRX267iOQ3AA==" />
     </item>
+    <item>
+      <title>Version 1.62.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.62.1</link>
+      <sparkle:version>96</sparkle:version>
+      <sparkle:shortVersionString>1.62.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>96</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixed</h4>
+          <ul>
+          <li><strong>Choose a folder with <code>#</code> again.</strong> Quick capture offers existing folders and folder creation, including names with spaces. Unselected <code>#words</code> remain tags.</li>
+          <li><strong>Keep appending as you type.</strong> Selecting a note with <code>&gt;</code> keeps the destination while you continue writing.</li>
+          <li><strong>Complete tokens without losing text.</strong> Cursor edits preserve the rest of the capture, including pasted Windows line endings. Enter and Tab accept a popup choice; Shift-Enter adds a line and Command-Enter saves.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.62.1/Slash-1.62.1.dmg" length="12841111" type="application/octet-stream" sparkle:edSignature="frA/Ob9ortJGiwEKtgVgDQkoR1uk+2n1S6016w3Z1UiffUpP1I8pGP2W64WA3hctf8CwpuJh6m4LbaixDh6MAw==" />
+    </item>
   </channel>
 </rss>
