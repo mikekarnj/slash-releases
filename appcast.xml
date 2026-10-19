@@ -2237,5 +2237,48 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.62.1/Slash-1.62.1.dmg" length="12841111" type="application/octet-stream" sparkle:edSignature="frA/Ob9ortJGiwEKtgVgDQkoR1uk+2n1S6016w3Z1UiffUpP1I8pGP2W64WA3hctf8CwpuJh6m4LbaixDh6MAw==" />
     </item>
+    <item>
+      <title>Version 1.63.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.63.0</link>
+      <sparkle:version>97</sparkle:version>
+      <sparkle:shortVersionString>1.63.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>97</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Added</h4>
+          <ul>
+          <li><strong>Explore Slash.</strong> Find features, setup instructions, and shortcuts from the Library.</li>
+          <li><strong>Open apps and System Settings from the Command Center.</strong> Highlight a launcher result and press Enter to open it.</li>
+          <li><strong>Clearer dictation setup.</strong> Download local models when you choose, see setup progress, and retry failed downloads. My words can improve supported local dictation engines.</li>
+          </ul>
+          <h4>Changed</h4>
+          <ul>
+          <li><strong>One Slash app with account-based access.</strong> Sign in with a verified free account to activate Slash. Internal and Public beta accounts use the same app; feature availability follows account policy. Signing out preserves the local library.</li>
+          <li><strong>Private integrations stay controlled.</strong> Sync, Android integration, Chrome capture, agents, and Slash-hosted AI remain off for Public beta accounts until enabled by the maintainer.</li>
+          <li><strong>Capture summaries require local consent.</strong> Public installations start with automatic AI summaries off; restoring preferences cannot turn them on.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Encrypted backups accept valid destination folders.</strong> New backups require passphrase confirmation and verify the saved archive before reporting success.</li>
+          <li><strong>Stronger protection for imported archives and local content.</strong> Import limits, encrypted recovery, clipboard exclusions, remote-image fetching, and the notes editor have additional security checks.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.0/Slash-1.63.0.dmg" length="25696176" type="application/octet-stream" sparkle:edSignature="FMrr6HQEUIyOu22/KXQQ3f0CS+N9JVrWRhCtTuIuonCFDL8ySZaE4+otCuFy0bKdrQZBlPcvrAaV2kV5aYPQAQ==" />
+    </item>
   </channel>
 </rss>
