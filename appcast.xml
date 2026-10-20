@@ -2280,5 +2280,36 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.0/Slash-1.63.0.dmg" length="25696176" type="application/octet-stream" sparkle:edSignature="FMrr6HQEUIyOu22/KXQQ3f0CS+N9JVrWRhCtTuIuonCFDL8ySZaE4+otCuFy0bKdrQZBlPcvrAaV2kV5aYPQAQ==" />
     </item>
+    <item>
+      <title>Version 1.63.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.63.1</link>
+      <sparkle:version>98</sparkle:version>
+      <sparkle:shortVersionString>1.63.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>98</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Changed</h4>
+          <ul>
+          <li><strong>Cleaner setup and discovery.</strong> Onboarding and Settings show the tools enabled for your account, without the feature-availability checklist.</li>
+          <li><strong>Keep control of paused connections.</strong> Existing connections retain disconnect and revoke controls, and saved AI and dictation choices stay intact when access pauses.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.1/Slash-1.63.1.dmg" length="25691305" type="application/octet-stream" sparkle:edSignature="rpuZ0BeCE4T9mFB6ohTeNuIciUlSCvkkivh5l1rGaKv3x3aRZp/mSsujd6gpkqGahYQQjO6fpSinFVr4v97BAA==" />
+    </item>
   </channel>
 </rss>
