@@ -2342,5 +2342,45 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.2/Slash-1.63.2.dmg" length="26585397" type="application/octet-stream" sparkle:edSignature="9lkyJjgHhnqxkaxT5m0F4tdg3pQhyfqvL9wwiOxp6jo0uFo3AsF6oFxaifpEZ21JDrYdthqllgrTU9lzdiP1Dw==" />
     </item>
+    <item>
+      <title>Version 1.63.3</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.63.3</link>
+      <sparkle:version>100</sparkle:version>
+      <sparkle:shortVersionString>1.63.3</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>100</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Changed</h4>
+          <ul>
+          <li><strong>Commands and shortcuts in one place.</strong> Library → Commands &amp; Hotkeys manages built-in commands, custom commands, and global shortcuts. Settings has clearer sections and a single AI provider picker.</li>
+          <li><strong>One voice workflow.</strong> The separate Ramble recording workflow is retired. Dictation remains available, and existing Ramble notes keep their saved content.</li>
+          </ul>
+          <h4>Fixed</h4>
+          <ul>
+          <li><strong>Safer text expansion.</strong> Queued expansion stops if its input target, clipboard, or app access changes. Empty templates preserve the key you typed.</li>
+          <li><strong>Restored files work immediately.</strong> Open, preview, copy, and drag a restored file without restarting Slash.</li>
+          <li><strong>Temporary sign-in failures preserve your session.</strong> Rate limits and request timeouts can retry without signing you out.</li>
+          <li><strong>Dictation preserves its first words.</strong> Startup audio is retained, and diagnostics explain when inserting recognized text was blocked.</li>
+          <li><strong>Find keeps Enter focused on search.</strong> Ask runs only after you deliberately select it.</li>
+          <li><strong>Deletion feedback matches the saved result.</strong> Failed permanent deletions keep the current selection and no longer report success.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.3/Slash-1.63.3.dmg" length="25695924" type="application/octet-stream" sparkle:edSignature="AlFJwPhUAu1grDZx+yyAgU6Qk9zk5mfFdFsnQljLcNJUb/J0UWK6U2oSRNRyxtnFuAiq28fy4VsgtIlB8Gf8Dg==" />
+    </item>
   </channel>
 </rss>
