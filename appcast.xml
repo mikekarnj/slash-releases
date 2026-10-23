@@ -2537,5 +2537,37 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.8/Slash-1.63.8.dmg" length="25802359" type="application/octet-stream" sparkle:edSignature="6GSAC/ATYOdeGNu9gDAx/jFYuo2xu1jABIyPksm1usGu1O27i1pU6jnWIjGFuWSZ849O5IsA0j7nto1Xh12ZAQ==" />
     </item>
+    <item>
+      <title>Version 1.63.9</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.63.9</link>
+      <sparkle:version>106</sparkle:version>
+      <sparkle:shortVersionString>1.63.9</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>106</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Changed</h4>
+          <ul>
+          <li><strong>Usage sharing is available.</strong> The Public app can send content-free feature counts when sharing is enabled. Settings lets you stop sharing at any time. Events use an installation identifier and are not linked to your account.</li>
+          <li><strong>Account setup makes choices explicit.</strong> Review the Terms and Privacy Policy, confirm your age and residence, and choose usage sharing separately before activation.</li>
+          <li><strong>Updated Library presentation.</strong> Library lists have clearer rows, navigation, search, and sort controls.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.9/Slash-1.63.9.dmg" length="26048865" type="application/octet-stream" sparkle:edSignature="p2EcutOb0cSHpZJtgMeuIbLYOpnA6dl6Y0Xsw0Jw4eay57pgRgA3a3ibN/ashcXAPkLTLZFTy04J/Ewo+4KqDQ==" />
+    </item>
   </channel>
 </rss>
