@@ -2569,5 +2569,52 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.63.9/Slash-1.63.9.dmg" length="26048865" type="application/octet-stream" sparkle:edSignature="p2EcutOb0cSHpZJtgMeuIbLYOpnA6dl6Y0Xsw0Jw4eay57pgRgA3a3ibN/ashcXAPkLTLZFTy04J/Ewo+4KqDQ==" />
     </item>
+    <item>
+      <title>Version 1.64.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.64.0</link>
+      <sparkle:version>107</sparkle:version>
+      <sparkle:shortVersionString>1.64.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>107</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>A new Slash Bar (the Command Center).</strong> One box and one list: type a thought and press Return to save it, press Tab to ask AI, or press ⌘F to search. Type "/" for commands. Type an app's name to find it, then pick it to open.</li>
+          <li><strong>File as you type.</strong> In the bar, type <code>+</code> to pick a folder or <code>&gt;</code> to pick a note to add to. The pick shows as a chip, and the Save row says where it goes.</li>
+          <li><strong>Link previews.</strong> A pasted link, or the page you're on, shows a preview with its title and icon. Ask about the page and the answer appears right in the bar. Saved links show their icon in the Library.</li>
+          <li><strong>Undo a save.</strong> After you save from the bar, a short confirmation shows where it went, with an Undo button. VoiceOver announces it, and it stays up longer while VoiceOver is on.</li>
+          <li><strong>Search finds more.</strong> In the Library, searching All Items also lists matching clipboard items, dictations, screenshots and recently deleted notes.</li>
+          <li><strong>New starter commands.</strong> New installs include <code>/tone</code>, <code>/email</code>, <code>/longer</code>, <code>/bullets</code>, <code>/actions</code>, <code>/explain</code>, <code>/now</code> and <code>/clip</code>.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>What changed in the bar.</strong> Tab now asks AI instead of searching; use ⌘F to search. The Capture, Commands, Find and Ask modes and Quick Ask are gone. A folder or note applies only once you pick it, so typing <code>+work</code> without picking saves it as plain text.</li>
+          <li><strong>One kind of command.</strong> Snippets and AI commands are now just Commands. Turn on "Run with AI" to make a command run its text as a prompt on your selection.</li>
+          <li><strong>A simpler Library sidebar.</strong> The top of the sidebar has Slash Bar, Search (⌘F) and New (⌘N). ⌘N opens one menu for a new note, command or chat, and replaces ⇧⌘N and File ▸ New Command. Make a folder with the + next to Folders.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Keyboard focus in the Library.</strong> Typing a search keeps every letter in the search field, ↓ moves into the results, Tab from a note reaches its title, Tab works from a file, clicking a tag puts focus on its notes, and arrowing through the sidebar stays in the sidebar.</li>
+          <li><strong>History details stay current.</strong> Clipboard, dictation and Recently Deleted details no longer show the previous item's text after you pick another.</li>
+          <li><strong>Lists in notes.</strong> Typing <code>-</code> or <code>1.</code> on its own line and pressing Return no longer deletes it.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.64.0/Slash-1.64.0.dmg" length="26552195" type="application/octet-stream" sparkle:edSignature="EjafDDaZhS8C4+sZCLw+iiP+K/6X3vVV9QlTsqvCj8VW0hCRgqWcmM3ccTJ+LpQym/MiEZEgoQPMwLS8yCSDCQ==" />
+    </item>
   </channel>
 </rss>
