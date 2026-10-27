@@ -2616,5 +2616,45 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.64.0/Slash-1.64.0.dmg" length="26552195" type="application/octet-stream" sparkle:edSignature="EjafDDaZhS8C4+sZCLw+iiP+K/6X3vVV9QlTsqvCj8VW0hCRgqWcmM3ccTJ+LpQym/MiEZEgoQPMwLS8yCSDCQ==" />
     </item>
+    <item>
+      <title>Version 1.65.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.65.0</link>
+      <sparkle:version>108</sparkle:version>
+      <sparkle:shortVersionString>1.65.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>108</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>Answers arrive as they are written.</strong> Ask and Chat stream responses from supported AI providers, including Slash AI.</li>
+          <li><strong>A steadier Command Center.</strong> The input stays in place as results change, with subtle transitions and clearer Return-key hints. Reopening an unchanged draft keeps its selection and Undo history.</li>
+          <li><strong>A clearer Library.</strong> Updated lists, Favorites, roomier reading text, a Properties panel, and backlinks at the end of notes. Library columns extend into the title bar with native window controls.</li>
+          <li><strong>Screenshot previews.</strong> Capture confirmations show a thumbnail and Copy action, stay visible while hovered, and offer an optional automatic clipboard copy setting.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Return reliably saves.</strong> A question mark no longer switches the default action to Ask. Dismissing a picker restores the correct action.</li>
+          <li><strong>Search keeps keyboard focus.</strong> Carrying a query between Library views keeps typing in the search field.</li>
+          <li><strong>More reliable dictation in Chrome.</strong> Slash rechecks the destination field before inserting. When insertion is blocked, the recognized words are copied for you.</li>
+          <li><strong>Safer Library interactions.</strong> Reading a file through Accessibility no longer crashes. Folder drag indicators match the destination, and the sidebar observes its position only while the New menu needs it.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.65.0/Slash-1.65.0.dmg" length="26548264" type="application/octet-stream" sparkle:edSignature="PTRLtNgQyONxJLzQEcz2S3H7mrJuN+0kUuhTcU8En5elU1Helnt46c/2RAQRs39GQkz6rWLm9bJJD3n4u/z8Cw==" />
+    </item>
   </channel>
 </rss>
