@@ -2784,5 +2784,37 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.67.1/Slash-1.67.1.dmg" length="26852975" type="application/octet-stream" sparkle:edSignature="xr/p47lyxFY73tJIglwl9MCtw3dhcjMIfEqY0eqg6X8Kgljg2d5sbTLT7A6bEm/gkDqsZnXkAHcWyVH5dZR3CQ==" />
     </item>
+    <item>
+      <title>Version 1.67.2</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.67.2</link>
+      <sparkle:version>112</sparkle:version>
+      <sparkle:shortVersionString>1.67.2</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>112</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixes</h4>
+          <ul>
+          <li><strong>Library rows have separators again.</strong> Subtle lines separate notes, commands, and other items in the Library lists.</li>
+          <li><strong>Long file names stay readable.</strong> Names without spaces truncate in the middle instead of breaking mid-word.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.67.2/Slash-1.67.2.dmg" length="26845513" type="application/octet-stream" sparkle:edSignature="PZN8hLkLUl9tDYchCvgaHJJWt+8p8T1EinBRg22l+6QrZco5P4uHGzwN6PsDnm17mcGtdIZKFyZtREtYILurBQ==" />
+    </item>
   </channel>
 </rss>
