@@ -2701,5 +2701,57 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.66.0/Slash-1.66.0.dmg" length="27053428" type="application/octet-stream" sparkle:edSignature="Q+lLoQU5OKu8QOPbcpkFp7cH7GEU4giBs7thJ5ciuC8x6w8FuGNsQrsVBEh5Fg6RZVYg2TkHqPcXcx5kAlPlCg==" />
     </item>
+    <item>
+      <title>Version 1.67.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.67.0</link>
+      <sparkle:version>110</sparkle:version>
+      <sparkle:shortVersionString>1.67.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>110</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>A black Slash Bar.</strong> The Slash Bar is now solid black in light and dark mode, matching the dictation pill and toasts.</li>
+          <li><strong>A new dictation pill.</strong> Dictation shows a black pill with a live recording dot, voice bars, a timer, and an esc chip. Three bouncing dots appear while it writes, and a check with "Inserted" when the words land.</li>
+          <li><strong>A clearer "saved" moment.</strong> Saving from the Slash Bar shows a black toast that springs up, with a check that draws itself.</li>
+          <li><strong>Friendlier empty screens.</strong> Empty lists explain what goes there and offer a button to make your first note or command.</li>
+          <li><strong>Small touches.</strong> Your trackpad gives a light tap when a save or dictation lands, and the menu bar icon animates while Slash syncs.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Tidier, more consistent design.</strong> Spacing, text sizes, and button, field, and row heights now share one system, so edges line up across the app.</li>
+          <li><strong>Buttons you can see in dark mode.</strong> Main buttons are now white with black text in dark mode instead of a faint grey.</li>
+          <li><strong>Sentence case throughout.</strong> Commands, menus, and buttons read naturally, for example "New note" and "Start dictation".</li>
+          <li><strong>Calmer motion.</strong> Animations are springier and consistent, and they respect Reduce Motion.</li>
+          <li><strong>Easier to read.</strong> Error text has stronger contrast, and VoiceOver announces dictation's progress without reading out what you said.</li>
+          <li><strong>Agents can reach more folders.</strong> Agents on this Mac can access every folder; remote agents can access every folder except Mac-only ones. Per-folder sharing and renewals are gone. Disconnect an agent in Settings ▸ Agents to end its access.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>The Slash Bar's cursor lines up with the hint text.</strong> It used to sit slightly above it.</li>
+          <li><strong>Library list headers are back.</strong> Titles and counts show again in All Items, Commands, Favorites, and folders, and the sort button shows again where available.</li>
+          <li><strong>The Slash Bar opens at its real height.</strong> It no longer briefly grows tall on first open or while lists load.</li>
+          <li><strong>Clipboard history hints never wrap mid-word.</strong></li>
+          <li><strong>Sign-in after signing out works.</strong> The email form is ready as soon as sign-out finishes, and the spinner says "Signing out…".</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.67.0/Slash-1.67.0.dmg" length="26851806" type="application/octet-stream" sparkle:edSignature="uN7U5JReyb4RSWydO6kfSZZxT8LSRTxdVHeE4drN65kRDfwJmx2fYqvCAkpBxh7Ihpdq1trw99yr/uffduleAg==" />
+    </item>
   </channel>
 </rss>
