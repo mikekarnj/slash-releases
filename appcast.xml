@@ -2656,5 +2656,50 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.65.0/Slash-1.65.0.dmg" length="26548264" type="application/octet-stream" sparkle:edSignature="PTRLtNgQyONxJLzQEcz2S3H7mrJuN+0kUuhTcU8En5elU1Helnt46c/2RAQRs39GQkz6rWLm9bJJD3n4u/z8Cw==" />
     </item>
+    <item>
+      <title>Version 1.66.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.66.0</link>
+      <sparkle:version>109</sparkle:version>
+      <sparkle:shortVersionString>1.66.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Getting Started guides.</strong> New users get five editable guides and a checklist covering capture, search, dictation, reusable text, AI, and shortcuts.</li>
+          <li><strong>Shortcuts for anything.</strong> Assign a global shortcut to a command, an app, or a web link in Settings ▸ Shortcuts.</li>
+          <li><strong>Easier updates.</strong> Slash checks daily and downloads updates in the background. A ready update installs when you quit, or choose Restart to Update when it suits you.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Simpler sign-in.</strong> Enter your email, then the code, and agree to the Terms of Service and Privacy Policy. If your email isn't invited yet, Slash adds you to the beta waitlist.</li>
+          <li><strong>Simpler Settings.</strong> A shorter sidebar with a new Shortcuts pane that replaces Commands &amp; Hotkeys, fewer captions, and a confirmation before signing out. Notes are always on.</li>
+          <li><strong>A more modern look.</strong> The Slash Bar shows an icon for each action, shows ⌘1–9 only while you hold ⌘, and uses Liquid Glass on macOS 26 and later. The Library has a plainer command editor, readable labels in list previews, and rounded selection. Corners and text sizes are consistent across the app.</li>
+          <li><strong>Quieter sync status.</strong> "Synced" shows briefly and then fades.</li>
+          <li><strong>Clipboard history no longer expires.</strong> Items stay until you delete them or clear history; the keep-for-days setting is gone.</li>
+          <li><strong>Usage sharing starts on for new installs.</strong> Counts only. No content, names, or file paths. Turn off Share usage counts in Settings ▸ General ▸ Privacy. Existing installs keep their choice.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Readable dropdowns in dark mode.</strong> Settings menus no longer look disabled.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.66.0/Slash-1.66.0.dmg" length="27053428" type="application/octet-stream" sparkle:edSignature="Q+lLoQU5OKu8QOPbcpkFp7cH7GEU4giBs7thJ5ciuC8x6w8FuGNsQrsVBEh5Fg6RZVYg2TkHqPcXcx5kAlPlCg==" />
+    </item>
   </channel>
 </rss>
