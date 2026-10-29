@@ -2816,5 +2816,38 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.67.2/Slash-1.67.2.dmg" length="26845513" type="application/octet-stream" sparkle:edSignature="PZN8hLkLUl9tDYchCvgaHJJWt+8p8T1EinBRg22l+6QrZco5P4uHGzwN6PsDnm17mcGtdIZKFyZtREtYILurBQ==" />
     </item>
+    <item>
+      <title>Version 1.67.3</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.67.3</link>
+      <sparkle:version>113</sparkle:version>
+      <sparkle:shortVersionString>1.67.3</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>113</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixes</h4>
+          <ul>
+          <li><strong>The Slash Bar holds still while you type.</strong> It used to grow and shrink with every keystroke as matches came and went, which looked like flicker. It now has two sizes: a slim strip when empty, and one open size from the first letter on. Short lists leave room below; long ones scroll.</li>
+          <li><strong>No more jump on the first letter.</strong> Opening the list briefly measured the old and new content together and overshot. The bar now grows once, smoothly.</li>
+          <li><strong>The keyboard hints stay put.</strong> The help bar no longer appears and disappears with the number of results.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.67.3/Slash-1.67.3.dmg" length="26870852" type="application/octet-stream" sparkle:edSignature="1qz2arTMJMK6XDTPIwURyt/6Mbo5BY9bNpb/JaMv/O87YNwHZZmZfrn4uk60TO8lmyyaodRQ/xTJB6lZZ6HDCQ==" />
+    </item>
   </channel>
 </rss>
