@@ -2941,5 +2941,42 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.69.0/Slash-1.69.0.dmg" length="27108610" type="application/octet-stream" sparkle:edSignature="HdcTPdc7OKkBuIdYeYZaBk8uGix+82Jx8RpdHYFTrhPcud33vz12aeew4wU1m6ndBTv9fMw0kzeKez7dyl54CA==" />
     </item>
+    <item>
+      <title>Version 1.69.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.69.1</link>
+      <sparkle:version>116</sparkle:version>
+      <sparkle:shortVersionString>1.69.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>116</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>All your API keys in one list.</strong> Settings → AI now has one API keys list with every key you've saved, shown masked (like sk-…a3F9). It replaces Other API keys and the old key field. Click ⋯ (or right-click a key) to show it once you confirm it's you; it hides again after 30 seconds, when you leave the pane or close Settings. Replace… and Remove… are in the same menu, and Remove asks first. Add API key… adds a key for any provider that doesn't have one yet: paste it, then press Return or click away to save (Escape cancels). When you use your own provider, Model sits right under Provider, and shows Add key… if that provider has no key yet. Adding, replacing or removing a key never changes which AI Slash uses.</li>
+          <li><strong>Library rows highlight on hover.</strong> A soft highlight shows which item the pointer is over, in every Library list.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>The Add shortcut picker does what you pick.</strong> Return now chooses the item you highlighted instead of the first one, the highlight stays on the same item when the list updates, and hovering a custom shortcut shows its ×.</li>
+          <li><strong>Add buttons no longer look disabled in Dark.</strong> "Add API key…" in Settings → AI and "Add app…" in Settings → Clipboard now read at full strength.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.69.1/Slash-1.69.1.dmg" length="27134292" type="application/octet-stream" sparkle:edSignature="CmPwmU4KcSA44tOHIQpHhlQn9+zeRAOOONGgDJUOgJUsYo4v/9jelyAAAFBK8YPnb6IbinkUKVdiUD/hEyDsCA==" />
+    </item>
   </channel>
 </rss>
