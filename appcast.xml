@@ -2849,5 +2849,52 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.67.3/Slash-1.67.3.dmg" length="26870852" type="application/octet-stream" sparkle:edSignature="1qz2arTMJMK6XDTPIwURyt/6Mbo5BY9bNpb/JaMv/O87YNwHZZmZfrn4uk60TO8lmyyaodRQ/xTJB6lZZ6HDCQ==" />
     </item>
+    <item>
+      <title>Version 1.68.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.68.0</link>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>1.68.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>114</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Ask the Slash Bar anything.</strong> Ask and Library Chat now answer any question, not only questions about your notes. When some of your notes match the question, only those are sent and the answer cites them; otherwise it answers like a regular AI assistant and none of your notes are sent.</li>
+          <li><strong>Continue in Chat.</strong> From a Slash Bar answer, ⌘K → Continue in Chat turns it into a Chat conversation in the Library, with its sources.</li>
+          <li><strong>/chat starts a new chat.</strong> It opens Library ▸ Chat on a fresh conversation, and reuses an empty one instead of piling up blank chats.</li>
+          <li><strong>Choose your dictation cleanup model.</strong> Settings → Dictation → Cleanup model: Automatic, any model from a provider you've added, or a local Ollama model. It's separate from your AI commands model, and starts on Automatic for everyone, including existing users; pick your AI commands model here if you'd rather keep using it.</li>
+          <li><strong>Save as command.</strong> Type plain text in the Slash Bar and pick Save as command to start a new command with that text.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Dictation cleanup is much faster with your own AI key.</strong> Automatic picks the quickest current model from your provider and keeps its "thinking" to a minimum, so cleaned text usually arrives in about a second instead of often timing out to raw text. Cleanup now gives up after 1 second instead of 1.5 and pastes your raw words, so you never wait long; slower models you pick yourself may fall back more often.</li>
+          <li><strong>Find commands without typing "/".</strong> Plain text in the Slash Bar now also shows matching commands, below the actions and apps. Return still saves.</li>
+          <li><strong>The New Command tool is now /command</strong> (it was /new). An existing /new is renamed, unless you already have a /command.</li>
+          <li><strong>Up-to-date AI models.</strong> Current OpenAI, Anthropic, Gemini, Groq and OpenRouter models replace ones that are retired or retiring. A model you already chose stays as it is; commands that pick a provider but no model use its new default.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Dictation keeps your last words.</strong> The mic now listens a moment longer after you let go of the key, so the word you're finishing makes it in.</li>
+          <li><strong>Explore's Ask AI tip is right again.</strong> It now says to press Tab or arrow down to Ask AI, then Return.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.68.0/Slash-1.68.0.dmg" length="26869345" type="application/octet-stream" sparkle:edSignature="xlhtzS96oIpKCU646uL2jAdGdVCZuxIgrxv04XJOAlsR+h/ph6lS24JIFDrUUVMhLAEuvP8VdttVCM2LPd22Aw==" />
+    </item>
   </channel>
 </rss>
