@@ -2896,5 +2896,50 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.68.0/Slash-1.68.0.dmg" length="26869345" type="application/octet-stream" sparkle:edSignature="xlhtzS96oIpKCU646uL2jAdGdVCZuxIgrxv04XJOAlsR+h/ph6lS24JIFDrUUVMhLAEuvP8VdttVCM2LPd22Aw==" />
     </item>
+    <item>
+      <title>Version 1.69.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.69.0</link>
+      <sparkle:version>115</sparkle:version>
+      <sparkle:shortVersionString>1.69.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>115</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>A tidier Shortcuts pane.</strong> Settings → Shortcuts is now grouped into App, Features and Custom. Custom lists only the commands, apps and quicklinks you've given a shortcut. Add shortcut… picks a new one. Hover a Custom shortcut and click × to clear it, or right-click for Clear shortcut. Clicking elsewhere in Settings stops recording.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>AI commands use the page you're on.</strong> When the Slash Bar has a browser tab attached and nothing is selected, commands like /summarize and /explain now work on that page's text instead of whatever was on your clipboard. Commands that rewrite text ask you to select the text you want changed.</li>
+          <li><strong>No more pop-up star on Library rows.</strong> The Favorite star no longer appears when you hover over a note or command. Add to Favorites and Remove from Favorites are in the right-click menu, and the star at the top of an open item still works.</li>
+          <li><strong>Clearer setup when this Mac already has Slash data.</strong> Setup now says in plain words that it found Slash data or connections on this Mac and that linking them to your account keeps them. You still confirm before anything is linked.</li>
+          <li><strong>The Provider menu shows what's running.</strong> With no provider chosen, accounts with Slash AI now see "Slash AI" instead of "Automatic (account default)", and Not configured appears only when Slash AI isn't available. API key fields have a visible border and say "Paste API key" or "Saved in Keychain".</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Checking or adding an API key no longer switches your AI.</strong> Settings → AI has a new Other API keys list with a key field for each other cloud provider, so you no longer have to change the Provider (which also moved dictation cleanup) just to see or add a key. Every saved key, including your current provider's, now has a Remove button. Dictation's Cleanup model can use those keys.</li>
+          <li><strong>Choosing Slash AI keeps dictation cleanup on Slash AI.</strong> With Cleanup model set to Automatic, some accounts used to fall back to basic offline cleanup instead.</li>
+          <li><strong>Cancelling Save as command keeps your text.</strong> What you typed in the Slash Bar comes back the next time you open it.</li>
+          <li><strong>The Slash Bar's text stays in view.</strong> Scrolling over empty or short input no longer scrolls it out of sight.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.69.0/Slash-1.69.0.dmg" length="27108610" type="application/octet-stream" sparkle:edSignature="HdcTPdc7OKkBuIdYeYZaBk8uGix+82Jx8RpdHYFTrhPcud33vz12aeew4wU1m6ndBTv9fMw0kzeKez7dyl54CA==" />
+    </item>
   </channel>
 </rss>
