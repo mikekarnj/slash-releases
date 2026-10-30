@@ -3040,5 +3040,41 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.69.3/Slash-1.69.3.dmg" length="27157868" type="application/octet-stream" sparkle:edSignature="D37jXI3v+fHM3x16yXK5hGaIcuFQhU10wwezlhfkSLvEQ5gNZ/+qI4/N0UX8fEOPPt20uvPz1XcqRVG0VE/FDw==" />
     </item>
+    <item>
+      <title>Version 1.70.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.70.0</link>
+      <sparkle:version>119</sparkle:version>
+      <sparkle:shortVersionString>1.70.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>119</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>See the evidence behind Chat answers.</strong> Inline source numbers open a Sources panel with the passage each answer used. Open a source note with its passage highlighted, then use Back to chat or Escape to return to the same answer and source.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>A calmer place to read and ask follow-ups.</strong> Chat has a document-style conversation, neutral question bubbles and a growing composer with a model picker. Stop or Escape keeps the answer received so far; Copy and Save as note show when they worked.</li>
+          <li><strong>Keep conversations organized.</strong> Chat groups conversations into Today and Earlier, supports New chat with ⌘N, and offers Undo for five seconds after deletion. New chats offer example questions; old conversations still open normally.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.70.0/Slash-1.70.0.dmg" length="27570468" type="application/octet-stream" sparkle:edSignature="h43zM//MWHklyzhfaj6Mt/tPYRz2f7+q7OU/7IVXqGnVgQ816trlq7Hpye1AwUvqa3wVhvPnAJNwJQp9GeVqBw==" />
+    </item>
   </channel>
 </rss>
