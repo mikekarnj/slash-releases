@@ -3107,5 +3107,41 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.70.1/Slash-1.70.1.dmg" length="27568488" type="application/octet-stream" sparkle:edSignature="rXlR2D9JnnDh/vmMU8mBF3uUD0HLopKKnh1a/uA5Y0IuOb8zQkhk7tK7jOY8A9bJC+DEV00wnGBHMp1Op4ynDA==" />
     </item>
+    <item>
+      <title>Version 1.70.2</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.70.2</link>
+      <sparkle:version>121</sparkle:version>
+      <sparkle:shortVersionString>1.70.2</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>121</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>Keep your Chat layout under your control.</strong> Opening Chat keeps the sidebar as you left it, and Sources starts closed. Open or close Sources whenever you need it; your place in the answer and selected text stay intact.</li>
+          <li><strong>More room for notes.</strong> Notes use the available editor width when Properties is closed. The Properties toggle makes room in a narrow window, and the sidebar has its own close control.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Chat citations and Sources controls respond to clicks.</strong> Click an inline source number to select its source card, or use × to close Sources. Opening Sources no longer briefly flashes an earlier part of the answer.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.70.2/Slash-1.70.2.dmg" length="27635996" type="application/octet-stream" sparkle:edSignature="FmZew7/UvHzSUOIVPTwZt2cEke03IDeUQ++fiXbdOI8t0LH1Y2eDMLNeCJMnsC6EmcwFSJlEe1sXlKEAF6RWBg==" />
+    </item>
   </channel>
 </rss>
