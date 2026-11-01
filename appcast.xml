@@ -3211,5 +3211,49 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.70.4/Slash-1.70.4.dmg" length="27668087" type="application/octet-stream" sparkle:edSignature="QCk3QOmfjtIicrm8uw9K287zWKoj2Qf+HmEQZFiW1nWu2RtDXuzlSHfRjfQ/GBfrfJVUHD5T9QJcAWbx2ibQDQ==" />
     </item>
+    <item>
+      <title>Version 1.71.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.71.0</link>
+      <sparkle:version>124</sparkle:version>
+      <sparkle:shortVersionString>1.71.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>124</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Think out loud with /ramble.</strong> Start /ramble from the Slash Bar and talk for up to 30 minutes. Slash saves what you say into one note as you go, then adds an AI summary on top and gives the note a title that says what it was about. The full transcript stays in the note, folded under a Show transcript button.</li>
+          <li><strong>Choose what an AI command works on.</strong> Each AI command now has an Input setting: Highlighted text, Voice or Typed. Typed commands ask you for text instead of using your selection. Existing commands work as before.</li>
+          <li><strong>Save AI answers as notes.</strong> Answers from Typed and Voice commands have Save as note (⌘S).</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Command titles are optional.</strong> Leave Title blank and the command is named by its trigger in the Library, the Slash Bar and AI panels.</li>
+          <li><strong>A calmer Library.</strong> Warm gray navigation, white content panes and neutral selection make mixed items easier to scan. Rows show the item type and folder; commands show just their title. Library feedback shows right away, without motion.</li>
+          <li><strong>Send ideas as well as bugs.</strong> Report a Bug is now Send Feedback, with a shorter form: a text box, an optional screenshot and Send. Diagnostics are attached by default, and you can view or remove them before sending. When you're signed in, replies go to your account email.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>The New command fields hold still.</strong> Title, Trigger and the body keep the same font while you type, and the body box grows with long commands before it scrolls.</li>
+          <li><strong>A command's Input survives edits on other devices.</strong> Editing a command on the phone or an older Mac no longer resets its Input setting.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.71.0/Slash-1.71.0.dmg" length="28065163" type="application/octet-stream" sparkle:edSignature="mvHZWAuw69Qvzm5o6Wwdn6ZcYMwjozZS9rSVOxH+ez1DKhTEZ82VHwwSj1ynQ9RWPjVl8OwZ/WnACQA+rzngAw==" />
+    </item>
   </channel>
 </rss>
