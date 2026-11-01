@@ -3255,5 +3255,36 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.71.0/Slash-1.71.0.dmg" length="28065163" type="application/octet-stream" sparkle:edSignature="mvHZWAuw69Qvzm5o6Wwdn6ZcYMwjozZS9rSVOxH+ez1DKhTEZ82VHwwSj1ynQ9RWPjVl8OwZ/WnACQA+rzngAw==" />
     </item>
+    <item>
+      <title>Version 1.71.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.71.1</link>
+      <sparkle:version>125</sparkle:version>
+      <sparkle:shortVersionString>1.71.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>109</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>125</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixes</h4>
+          <ul>
+          <li><strong>The Library no longer freezes.</strong> In 1.71.0, a large library could hang the Library for 20 seconds or more and make every click lag. Slash now checks your sign-in once instead of on every redraw, and list rows skip work when nothing about them changed.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.71.1/Slash-1.71.1.dmg" length="28069391" type="application/octet-stream" sparkle:edSignature="9kI3Gc/Eutr1wR56Hghn4EbxNeiGVALO3Qz0yluobog/AEgknScS530ackAxjPmQ2FKQy+cm0KwoXxMRszu3Aw==" />
+    </item>
   </channel>
 </rss>
