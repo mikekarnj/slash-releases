@@ -3260,5 +3260,53 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.71.12/Slash-1.71.12.dmg" length="28315172" type="application/octet-stream" sparkle:edSignature="vCuDHSLi2dmwnTTyWaGAtlpLTycVqvbaxBqlO+epuFuE4S+THStKsoR/cnR2nLNbZ65lptq8CQ1VYlfr5WeRAQ==" />
     </item>
+    <item>
+      <title>Version 1.72.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.72.0</link>
+      <sparkle:version>137</sparkle:version>
+      <sparkle:shortVersionString>1.72.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>137</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Dictate with fn.</strong> New installs start dictation by pressing fn; ⌃⌥D still works as a backup. fn combinations like fn+Delete or fn+arrows never start a recording. Existing installs keep their current shortcut.</li>
+          <li><strong>See and peek at backlinks.</strong> A note shows how many notes link to it, and hovering a link or a backlink row previews that note.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Links survive renames.</strong> Renaming a note updates the links that point to it, so they keep working. When several notes share a name, links open the oldest one, and <code>[[</code> suggestions offer only that note.</li>
+          <li><strong>Record for up to 20 minutes hands-free.</strong> Tap-to-stop recordings run up to 20 minutes, with clearer copy on how to stop.</li>
+          <li><strong>New command opens the editor.</strong> Creating a command opens it straight in the Library editor with the title focused, instead of a pop-up. A blank one you leave is discarded.</li>
+          <li><strong>Roomier command editing and tidier dialogs.</strong> Commands use the full editing height, long text scrolls inside the editor, and dialogs like Feedback, Invite, Quick Add and GIF Save share consistent spacing.</li>
+          <li><strong>Long note titles wrap.</strong> Titles show in full instead of running off the edge, and list previews no longer show image links.</li>
+          <li><strong>Whole images in capture notes.</strong> Images in a capture's note show in full, and pasted images no longer show their link text.</li>
+          <li><strong>Shorter Settings copy.</strong> Settings descriptions are briefer and easier to scan.</li>
+          <li><strong>Steadier Library details.</strong> Shortcut labels, section headings and Properties resizing are more consistent.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Clicking a link in a note opens it.</strong> A plain click or a Command-click on a rendered link, URL or tag opens it instead of revealing its Markdown.</li>
+          <li><strong>Pasted titles keep their spaces.</strong> Pasting a title with a line break no longer joins the words together.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.72.0/Slash-1.72.0.dmg" length="28426696" type="application/octet-stream" sparkle:edSignature="7kIDoHxIx99nnEa8vLH/EH40uCjRUY913537RwHlk9P6sUj7WFdsGZwckTBHdg+GKN8f715lTIkxKttueNP8Cw==" />
+    </item>
   </channel>
 </rss>
