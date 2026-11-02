@@ -3211,7 +3211,54 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.70.4/Slash-1.70.4.dmg" length="27668087" type="application/octet-stream" sparkle:edSignature="QCk3QOmfjtIicrm8uw9K287zWKoj2Qf+HmEQZFiW1nWu2RtDXuzlSHfRjfQ/GBfrfJVUHD5T9QJcAWbx2ibQDQ==" />
     </item>
-    
-    
+    <item>
+      <title>Version 1.71.12</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.71.12</link>
+      <sparkle:version>136</sparkle:version>
+      <sparkle:shortVersionString>1.71.12</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>136</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Think out loud with /ramble.</strong> Talk for up to 30 minutes and save one note with an AI summary, a title and the full transcript folded underneath.</li>
+          <li><strong>Choose what an AI command works on.</strong> Use Highlighted text, Voice or Typed input, and save Typed or Voice answers as notes with ⌘S.</li>
+          <li><strong>Find copied text in the Slash Bar.</strong> Search your opt-in clipboard history alongside notes, commands and apps.</li>
+          <li><strong>Go Back and Forward in the Library.</strong> Return to a previous section or item with the arrows or ⌘[ and ⌘].</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Command titles are optional.</strong> Leave Title blank to use the trigger as its name. New command fields keep their font while you type, and the body grows before it scrolls.</li>
+          <li><strong>A clearer Library.</strong> A dark sidebar, neutral selection, readable note previews and consistent controls make mixed items easier to scan. Properties resizing, scrolling and Chat's follow behavior are steadier.</li>
+          <li><strong>Manage commands and shortcuts in one place.</strong> The Library focuses on your content; built-in actions and their shortcuts stay in Settings and the Slash Bar.</li>
+          <li><strong>Find stronger matches sooner.</strong> Slash Bar ranking prioritizes the best matches and avoids repeated ranking work. Library rows and AI-key checks reuse unchanged results.</li>
+          <li><strong>Send ideas as well as bugs.</strong> Send Feedback has a shorter form with optional screenshots and removable diagnostics; replies use your signed-in email.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>The Library responds again.</strong> Fixes the reported freezing while opening notes and switching Library sections.</li>
+          <li><strong>Escape follows the current focus.</strong> Search clears before the Library closes, while open menus and editors keep their own Escape behavior.</li>
+          <li><strong>AI prompts stay out of typed expansions.</strong> Typing an AI command's trigger never pastes its prompt as ordinary text.</li>
+          <li><strong>A command's Input survives older clients.</strong> Editing on another device no longer resets a newer Input setting.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.71.12/Slash-1.71.12.dmg" length="28315172" type="application/octet-stream" sparkle:edSignature="vCuDHSLi2dmwnTTyWaGAtlpLTycVqvbaxBqlO+epuFuE4S+THStKsoR/cnR2nLNbZ65lptq8CQ1VYlfr5WeRAQ==" />
+    </item>
   </channel>
 </rss>
