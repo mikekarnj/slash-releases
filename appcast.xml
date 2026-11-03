@@ -3308,5 +3308,45 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.72.0/Slash-1.72.0.dmg" length="28426696" type="application/octet-stream" sparkle:edSignature="7kIDoHxIx99nnEa8vLH/EH40uCjRUY913537RwHlk9P6sUj7WFdsGZwckTBHdg+GKN8f715lTIkxKttueNP8Cw==" />
     </item>
+    <item>
+      <title>Version 1.73.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.73.0</link>
+      <sparkle:version>138</sparkle:version>
+      <sparkle:shortVersionString>1.73.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>138</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Copy, save or keep a screenshot right after you take it.</strong> A card in the bottom-left corner offers Copy, Save and Add to Notes. Click the thumbnail to open the full image, even with the Library closed.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Less to read.</strong> Settings, the command editor, onboarding, Chat and the Clipboard drop helper lines and taglines you don't need. Errors, privacy notes, warnings and recovery instructions stay.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>The Library reopens where you left it.</strong> The Library window keeps its size and position after you close it or quit Slash.</li>
+          <li><strong>The Properties divider looks whole.</strong> The line between a document and Properties runs to the top of the window and highlights as one piece when you hover it.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.73.0/Slash-1.73.0.dmg" length="28542125" type="application/octet-stream" sparkle:edSignature="hjkV03qG2qoeGXNi0LWhQ4ynD4FK8Gq3jXZ1A3WAZ+PR+iiSM+4ztysHddNrPDectj0WX+9AM27vncC/R7RMBg==" />
+    </item>
   </channel>
 </rss>
