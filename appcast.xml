@@ -3348,5 +3348,52 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.73.0/Slash-1.73.0.dmg" length="28542125" type="application/octet-stream" sparkle:edSignature="hjkV03qG2qoeGXNi0LWhQ4ynD4FK8Gq3jXZ1A3WAZ+PR+iiSM+4ztysHddNrPDectj0WX+9AM27vncC/R7RMBg==" />
     </item>
+    <item>
+      <title>Version 1.74.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.74.0</link>
+      <sparkle:version>139</sparkle:version>
+      <sparkle:shortVersionString>1.74.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>139</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Format your commands.</strong> Text commands use the same editor as Notes, so you can add bold, italics, links and lists. Apps that accept formatting paste it as formatted text; other apps get clean text with each link's address. Existing commands stay as they were until you format them.</li>
+          <li><strong>See which speech model is dictating.</strong> Settings lists Apple, Parakeet, Whisper and, on plans that include it, Slash Cloud, so you can pick one directly. Nothing downloads until you ask, and if Slash Cloud can't run, dictation uses the speech model on your Mac.</li>
+          <li><strong>Choose a folder when saving from Chrome.</strong> The Save to Slash button lets you pick a folder and add a thought before you save.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Commands read like notes.</strong> A command's page drops the box and button rows: the trigger comes first, AI settings sit in one AI button, and less-used actions move to the ⋯ menu.</li>
+          <li><strong>One way to create a command.</strong> New command and Save as command now open the Library editor, replacing the Quick Add pop-up.</li>
+          <li><strong>Find variables as you write.</strong> Press / or type {{ in a command for Clipboard, Today's date, Cursor position and more, with plain names. Hover a variable to see what it fills in.</li>
+          <li><strong>Save to Slash connects itself.</strong> Slash connects to the Chrome extension on its own, and a Save to Slash switch in Settings turns it off for good.</li>
+          <li><strong>Dictation keeps more of its cleanup.</strong> One doubtful edit no longer throws out the whole cleanup: Slash keeps the good sentences. When cleanup can't be used, fillers like "um" are still removed.</li>
+          <li><strong>Cleanup keeps "uh-oh".</strong> Words like "uh-oh" and "uh-huh" are no longer treated as fillers, and cleanup no longer adds notes about its own edits.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Ramble records from the Slash Bar again.</strong> Running /ramble starts recording instead of opening an AI answer.</li>
+          <li><strong>Fewer invented endings in Slash Cloud dictation.</strong> Repeated phrases like "Thank you. Thank you." that the speech model made up at the end of a recording should now be removed.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.74.0/Slash-1.74.0.dmg" length="28411563" type="application/octet-stream" sparkle:edSignature="mJ/3DPp/aGQeYo5Xk8NptfuiGgRLIWbeI/TdLI00obylvmwmLeEgNcMEXSmQ0L7Ibjks7kZsu9NQnhqDc5paDw==" />
+    </item>
   </channel>
 </rss>
