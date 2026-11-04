@@ -3433,5 +3433,53 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.75.0/Slash-1.75.0.dmg" length="28564504" type="application/octet-stream" sparkle:edSignature="fGUKIHM7CLJ1xqCFejGnPbpsqIloC7Jv1QAeW5cNbDB3fplM9+Vu29y22b8c+7WaiHbe07GcJU+GmiyyZSUMBw==" />
     </item>
+    <item>
+      <title>Version 1.76.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.76.0</link>
+      <sparkle:version>141</sparkle:version>
+      <sparkle:shortVersionString>1.76.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>141</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>A writing view for notes.</strong> Press ⌃⌘3 on a note, or choose Writing view in its … menu, to hide everything but your text in one centered column. Esc brings the Library back.</li>
+          <li><strong>Resize or delete an image with a click.</strong> Click an image you added to a note or command for Small, Medium, Large and Delete. Images in existing notes now start at Medium, so wide ones look smaller; choose Large to enlarge one you added.</li>
+          <li><strong>Change your mind mid-sentence when dictating.</strong> With cleanup on, in English, "Let's meet at 2, actually 3" becomes "Let's meet at 3." Slash only does this for clear corrections of a number, date or name, and leaves anything else as you said it.</li>
+          <li><strong>Dictate numbered lists.</strong> With AI cleanup, in English, "Three things, first call Sam, second send the deck, third book the room" becomes a heading and a numbered list.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Lists work like a document editor.</strong> A bullet under a number stays a bullet, and numbers stay in order when you indent, delete, cut or paste. Leaving a sublist picks up the parent list where it left off, and nested bullets change shape by level.</li>
+          <li><strong>Add text under a list item.</strong> Shift-Return adds a line lined up under the item, and items 1 to 9 now start their text at the same spot.</li>
+          <li><strong>More room around your writing.</strong> Notes, commands, clips and dictations have wider margins in the Library, which narrow when the window does.</li>
+          <li><strong>A simpler new-folder window.</strong> Just a name, parent and color, and a sub-folder starts in its parent's color. The Mac-only choice moves to Edit folder.</li>
+          <li><strong>Open and close parent folders.</strong> An arrow hides or shows sub-folders without selecting the folder, and your Mac remembers how you left them.</li>
+          <li><strong>Dictation drops stutters and restarts.</strong> With AI cleanup, in English, "talk to the the design team" and "what we- what we should do" come out clean. Repeats you mean, like "very very", stay.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Commands should now expand in Apple Mail.</strong> Triggers should work in Mail's compose window and other apps that edit a whole page in Apple's web engine.</li>
+          <li><strong>Images you delete from a note stop taking up space.</strong> Their stored data is freed when you switch to another note, and undo keeps working until then. Restoring an older version after that brings back the text but not the image.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.76.0/Slash-1.76.0.dmg" length="28638696" type="application/octet-stream" sparkle:edSignature="/MeMg7GYVAZdYdJ02wVd6ly5JTHbs6smVe+rJWkfOEiJhRi3q17irrUeOq92xNa8al2u3C45iRYgI+FJPIeXCQ==" />
+    </item>
   </channel>
 </rss>
