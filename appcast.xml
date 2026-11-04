@@ -3395,5 +3395,43 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.74.0/Slash-1.74.0.dmg" length="28411563" type="application/octet-stream" sparkle:edSignature="mJ/3DPp/aGQeYo5Xk8NptfuiGgRLIWbeI/TdLI00obylvmwmLeEgNcMEXSmQ0L7Ibjks7kZsu9NQnhqDc5paDw==" />
     </item>
+    <item>
+      <title>Version 1.75.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.75.0</link>
+      <sparkle:version>140</sparkle:version>
+      <sparkle:shortVersionString>1.75.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>140</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Put photos in your commands.</strong> Add any number of photos or GIFs to a text command with the / menu, paste or drag. Its trigger pastes the text and photos together in apps that accept them, like Mail and Notes, and just the text elsewhere.</li>
+          <li><strong>Choose a photo's size.</strong> Click a photo in a command to pick Small, Medium or Large. New photos start at Medium, so they no longer paste oversized.</li>
+          <li><strong>A guided setup for new users.</strong> A first run now walks through permissions, a dictation practice and a snippet, one step at a time, and you can skip anywhere.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Tell AI commands apart.</strong> AI commands carry a ✦ in Library lists, a dot on the AI button shows when setup isn't finished, and an empty AI prompt suggests what to write.</li>
+          <li><strong>Calmer text fields.</strong> Text fields share one look, with no blue ring when you click in, and the Settings sidebar marks your place in neutral gray.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.75.0/Slash-1.75.0.dmg" length="28564504" type="application/octet-stream" sparkle:edSignature="fGUKIHM7CLJ1xqCFejGnPbpsqIloC7Jv1QAeW5cNbDB3fplM9+Vu29y22b8c+7WaiHbe07GcJU+GmiyyZSUMBw==" />
+    </item>
   </channel>
 </rss>
