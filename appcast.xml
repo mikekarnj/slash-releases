@@ -3481,5 +3481,48 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.76.0/Slash-1.76.0.dmg" length="28638696" type="application/octet-stream" sparkle:edSignature="/MeMg7GYVAZdYdJ02wVd6ly5JTHbs6smVe+rJWkfOEiJhRi3q17irrUeOq92xNa8al2u3C45iRYgI+FJPIeXCQ==" />
     </item>
+    <item>
+      <title>Version 1.77.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.77.0</link>
+      <sparkle:version>142</sparkle:version>
+      <sparkle:shortVersionString>1.77.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>142</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Run AI commands on saved items.</strong> Properties now has an AI section. Add commands like Summarize for each type of item, click Run, and the answer stays on that item with its date. Search your commands to add them, and nothing runs until you click.</li>
+          <li><strong>Describe a command and let AI write it.</strong> Type what you want in the Slash Bar, like "turn messy notes into a client update", and choose Write command with AI. It opens ready to check and edit.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>More room for your writing.</strong> Library margins are narrower, and text centers in wide windows.</li>
+          <li><strong>See which folders hold sub-folders.</strong> Parent folders always show their open/close arrow, and the left and right arrow keys close and open them.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Locking Slash can't erase your notes anymore.</strong> If your Mac slept or locked before you first unlocked Slash after opening it, your saved notes could be replaced with an empty list. The same could happen if a stored file couldn't be read when Slash opened. Notes already lost this way aren't brought back by this update.</li>
+          <li><strong>Going back to an older version no longer locks your library.</strong> A command saved by a newer Slash now waits, marked as needing a newer version, instead of stopping the whole library from opening.</li>
+          <li><strong>Dictation cleanup keeps your words.</strong> Fixed rare cases that dropped a name or a word, added a stray quote or wrong capital, or inserted text you never said.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.77.0/Slash-1.77.0.dmg" length="29177028" type="application/octet-stream" sparkle:edSignature="yr/Ky8anKsot3HgiKTC2cKjPXgtOX+5xHkALswePQGn+YlETCFrkTJNpE7IE3hhXg7bnIJ56TOwsIoIJFxDlBw==" />
+    </item>
   </channel>
 </rss>
