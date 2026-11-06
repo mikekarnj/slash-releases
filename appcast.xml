@@ -3595,5 +3595,48 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.78.0/Slash-1.78.0.dmg" length="29504266" type="application/octet-stream" sparkle:edSignature="j/zuaZobRoAJAxIkwD2k0i60Cxih8jrusS3SLSCoPfoWGxVoPHck35oyHBTtdwKrERtOkZndC4WxeTwpRmpFAQ==" />
     </item>
+    <item>
+      <title>Version 1.79.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.79.0</link>
+      <sparkle:version>145</sparkle:version>
+      <sparkle:shortVersionString>1.79.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>145</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Tasks live beside your notes and commands.</strong> A new Tasks tab groups what's overdue, due today, upcoming and undated, and a task page adds a checkbox, a due date and repeats. Notes are still the default, and any note can become a task.</li>
+          <li><strong>Capture a task from anywhere.</strong> Press ⌃⌥T or type <code>/task</code> in the Slash Bar and Return saves a task. Words like "tomorrow" or "every Monday" highlight as you type and set the task's date. Plain typing still saves a note, with Save as task one row down.</li>
+          <li><strong>A sort for your main Library lists.</strong> All Items, Notes, Commands, Files, Favorites and folders each have a sort button with Newest first, Oldest first and Name, remembered for each list. Under Newest or Oldest first, editing an item no longer moves it.</li>
+          <li><strong>Folders have sections.</strong> Tasks, Commands, Notes and Files each get their own, below any favorites.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>AI results go straight into web and desktop-app fields.</strong> In Chrome and many desktop apps, Apply or Insert now puts the result in the field instead of leaving it on your clipboard. Where it can't be placed, the button says Copy.</li>
+          <li><strong>See what each item is at a glance.</strong> Library rows start with an icon for its type, and the second line is simpler. Icons now match across Slash.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Clicking the first line of the Slash Bar places the cursor.</strong> Clicks at the very top of the bar used to do nothing.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.79.0/Slash-1.79.0.dmg" length="30407755" type="application/octet-stream" sparkle:edSignature="pMuO15rH4LMwjYPuXMblfdZFUfMRjvjv8K04gFljZQ6M6blIV0vvE6CYK8VihJwXSoLJv42am60vKAh44YgAAQ==" />
+    </item>
   </channel>
 </rss>
