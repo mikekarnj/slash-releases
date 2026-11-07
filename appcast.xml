@@ -3638,5 +3638,52 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.79.0/Slash-1.79.0.dmg" length="30407755" type="application/octet-stream" sparkle:edSignature="pMuO15rH4LMwjYPuXMblfdZFUfMRjvjv8K04gFljZQ6M6blIV0vvE6CYK8VihJwXSoLJv42am60vKAh44YgAAQ==" />
     </item>
+    <item>
+      <title>Version 1.80.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.80.0</link>
+      <sparkle:version>146</sparkle:version>
+      <sparkle:shortVersionString>1.80.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>146</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Get the Chrome extension from the Library.</strong> A Get apps row at the bottom of the sidebar opens a window with an Install button for Chrome, if your account can use it. iPhone and Android are marked Coming soon.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>New task opens the Slash Bar.</strong> New task, ⌘N on the Tasks tab and the empty Tasks button all start a task in the Bar. Inside a folder, that folder is already picked.</li>
+          <li><strong>Set dates while you edit a task's title.</strong> Words like "tomorrow" or "every Monday" highlight as you type, as they do in the Slash Bar, and set the date when you press Return or leave the title. Click one to keep it as plain text, and type + and a letter to pick a folder.</li>
+          <li><strong>Type "tmrw" for tomorrow.</strong> It sets the due date anywhere in a task's title.</li>
+          <li><strong>Due dates are easy to spot.</strong> A calendar icon marks a task's due date in Library lists, and overdue dates are red. A task with no date shows none, and one with no date or folder takes a single line.</li>
+          <li><strong>Repeat lives in the date picker.</strong> Choose how a task repeats from the same picker as its date.</li>
+          <li><strong>The sidebar's Tasks count matches the Tasks list.</strong> It used to count only overdue tasks and today's.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Updating keeps your own ⌃⌥T shortcut.</strong> In 1.79.0, if you already used every shortcut Tasks could take, the update gave ⌃⌥T to Tasks and removed yours. Tasks now picks another. If this happened to you, record your shortcut again.</li>
+          <li><strong>A folder picked in the Slash Bar stays right if you rename or delete it.</strong> A renamed folder still gets the item. A deleted one asks you to pick another, instead of making a new folder with the old name.</li>
+          <li><strong>A note edited on your phone no longer stops Back Up or Restore Workspace.</strong> A phone edit could leave a note's list of photos out of step with the photos it holds, and that one note made the whole backup fail. Damaged photos are still refused.</li>
+          <li><strong>"No folder" shows in full</strong> in a narrow Properties panel.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.80.0/Slash-1.80.0.dmg" length="30603144" type="application/octet-stream" sparkle:edSignature="kz7VwgZh9jBIoONdWtVpMNNnAlkcO8uuLNI2n+IGgqwiNmqaOcoZnobgIa4ZirlBPLenzuI4472mlAIMvJGFBQ==" />
+    </item>
   </channel>
 </rss>
