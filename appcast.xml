@@ -3685,5 +3685,53 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.80.0/Slash-1.80.0.dmg" length="30603144" type="application/octet-stream" sparkle:edSignature="kz7VwgZh9jBIoONdWtVpMNNnAlkcO8uuLNI2n+IGgqwiNmqaOcoZnobgIa4ZirlBPLenzuI4472mlAIMvJGFBQ==" />
     </item>
+    <item>
+      <title>Version 1.81.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.81.0</link>
+      <sparkle:version>147</sparkle:version>
+      <sparkle:shortVersionString>1.81.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>136</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>147</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Browse your pictures as a gallery.</strong> All Items, Favorites and folders can switch from List to Gallery, a grid of cards where photos, screenshots, files and links with a picture show it and everything else shows its words. Click a card to open it, and Back returns you to the grid. List stays the default, and each list remembers your choice.</li>
+          <li><strong>Show one kind of item at a time.</strong> All Items, Favorites and folders have All, Notes, Links, Images and Files buttons under the search.</li>
+          <li><strong>Find photos by what's in them.</strong> Search "dog" or "beach" to find photos that show one. Slash labels your photos on this Mac, without an AI service, and labels the ones you already have in the background. Labels sync with your notes, so photos you already have may sync once more.</li>
+          <li><strong>Read saved articles in Slash.</strong> An article you save shows its text below the link, without footnote markers, and you can fold it away. Opening an article from a Chat answer takes you to the quoted passage.</li>
+          <li><strong>See and edit a note's tags in Properties.</strong> Add a tag, remove one with ×, or click it to see every note with that tag. Tags are still the #words in your note.</li>
+          <li><strong>Agents on this Mac can do more.</strong> A paired agent can now edit and delete notes, manage tasks, add commands and use the ones you share with it, and find notes by relevance. An edit keeps the old text in version history, a delete goes to Recently Deleted, and edits, deletes and new commands show in the agent's log in Settings ▸ Agents.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Search finds your words in any order.</strong> "red chair" finds "a chair painted red". Put words in quotes to keep them together, and put - before a word to leave out notes that have it. Notes with your words side by side still come first.</li>
+          <li><strong>Narrow a search by date.</strong> Type today, yesterday, this week, last week, this month or last month in Slash Bar search or the Notes and All Items search to see what you saved then. A search with quotes in it reads these words as plain text.</li>
+          <li><strong>Saved X posts read like the post.</strong> You get the whole post where X's page shows it, not a cut-off one, on a card with the author, their handle, the date and a View on X button. The note's title is the author and the post's first line. This applies to posts you save from now on.</li>
+          <li><strong>Links without a picture show their site's icon.</strong> On a link's page, instead of a blurry, stretched logo, you see the icon on a card with the site's name.</li>
+          <li><strong>Fewer unrelated notes while you jot in the Slash Bar.</strong> The notes listed as you type a thought now need your words side by side. Search still finds them spread apart.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Link titles show apostrophes and other symbols correctly</strong>, instead of codes like <code>&amp;#x27;</code>.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.81.0/Slash-1.81.0.dmg" length="31169463" type="application/octet-stream" sparkle:edSignature="kD5jLXpmmoopkeNKLur2h0WMv3dURLeglLi+iq6r2MJ8FCBNmdBGVHt/u8jGdp7sUe4Gqx++J4B02DEq4A3/Dw==" />
+    </item>
   </channel>
 </rss>
