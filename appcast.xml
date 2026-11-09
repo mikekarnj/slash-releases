@@ -3824,5 +3824,64 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.83.0/Slash-1.83.0.dmg" length="31407367" type="application/octet-stream" sparkle:edSignature="dVIY/eoxjRC6jQMbSEPaeGlSeduMg1u6hUr02IZrdjFlE6Xj0sGVGlchhuyfYD2IoTqFpE4Jzb6BcglcspoECA==" />
     </item>
+    <item>
+      <title>Version 1.84.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.84.0</link>
+      <sparkle:version>150</sparkle:version>
+      <sparkle:shortVersionString>1.84.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>148</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>150</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Tag notes and browse by tag.</strong> A Tags section at the bottom of the Library sidebar lists your tags with their note counts; click one to see its notes. Tags can nest, like #work/clients, and use letters from any language. Right-click a tag to rename or delete it in every note at once, and ⌘Z undoes it.</li>
+          <li><strong>Select several items at once.</strong> ⌘-click or ⇧-click in any Library list, then move or delete them together, and ⌘Z brings back deleted notes, tasks and commands. In Recently Deleted you can restore several notes at once. In History you can delete several items; clips and dictations deleted there are gone for good, so Slash asks first. While a group is selected, the detail pane says how many.</li>
+          <li><strong>Choose what agents may do.</strong> Settings ▸ Agents ▸ Permissions sets Allow, Ask or Off for reading, editing, deleting and commands. Ask shows exactly what an agent wants to change, with Deny and Allow. Deleting a note or adding a command now asks you first.</li>
+          <li><strong>Clipboard history can clear itself.</strong> Settings ▸ Clipboard ▸ Keep history for removes clips older than a day, a week, a month, three months or a year. Pinned clips always stay. New installs keep one month; if you already use Slash, nothing is removed until you pick a limit.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>AI on selected text stays in the note.</strong> Pick an AI command from the selection bar and its result appears right under your selection, and smaller rewrites show what changed. Replace, insert it below, try again or discard; ⌘Z undoes a replace. Commands that ask for input first still open the Slash Bar.</li>
+          <li><strong>Saved articles are part of the note.</strong> An article you save shows as a block under its picture, open every time you open the note, and you can write below or above it. Fold it while you read; select it to copy, move or delete it, and a deleted article stays deleted. Its text is the same size as your own writing.</li>
+          <li><strong>Tags added in Properties stay out of your text.</strong> + Add tag no longer writes a #word into the note. Removing a #tag keeps the word and drops only the #.</li>
+          <li><strong>History is easier to scan.</strong> Each row shows an icon for its type and the app a clip came from. Clipboard, Dictations and Screenshots sit as rows under History in the sidebar, and search can narrow to text, links, images or files. While clipboard recording is paused, a line says so with a Resume button.</li>
+          <li><strong>Saved websites show their page in the list.</strong> A saved link's row shows the top of its page, or the page's own picture, instead of the site's small icon.</li>
+          <li><strong>The selection bar sits right above your selection.</strong> Select text in a note and the formatting bar appears just over it, instead of near the bottom of the window.</li>
+          <li><strong>Your top AI commands, one click away.</strong> The selection bar's AI menu shows your 3 most-used AI commands, plus All AI commands… to pick any other from the Slash Bar.</li>
+          <li><strong>Link to note.</strong> The / menu's Wiki link row is now called Link to note.</li>
+          <li><strong>A clearer / hint.</strong> New notes and empty lines now read "Type / for editing, commands and more".</li>
+          <li><strong>Refresh card is in the note's ⋯ menu.</strong> A saved link's own ⋯ menu now offers Refresh card, as the list's menu does.</li>
+          <li><strong>Search shows fewer unrelated items.</strong> History and the Slash Bar's clipboard results now only list clips containing what you typed, so "dog" no longer finds "doing". Slash Bar results found by meaning need a closer match, and at most five follow the word matches.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Home pages get a screenshot.</strong> Any saved site's home page, like mymind.com, apple.com, nytimes.com or youtube.com, is always a website, so it gets a picture of the page instead of being treated as an article, post, video or audio. Refresh card fixes a home page saved as another type before.</li>
+          <li><strong>More long web pages get their screenshot.</strong> Many pages that were too tall for a screenshot now keep their top part as the picture instead of getting none.</li>
+          <li><strong>Website pages stay websites.</strong> A long page that calls itself a website keeps its screenshot. Only long pages that don't say what they are count as articles.</li>
+          <li><strong>Undo keeps working when a saved article arrives late.</strong> If a link's article finished loading after you added to the note or renamed it, Undo now still works and the article stays.</li>
+          <li><strong>Subfolders stand out in the Properties folder menu.</strong> A subfolder now sits clearly indented under its parent, with its colour next to its name.</li>
+          <li><strong>Clicking the Library search field shows its types.</strong> Each click opens the menu of notes, links, images and the other types in the list, even when the field already has the cursor.</li>
+          <li><strong>The Hide sidebar button no longer looks switched on.</strong></li>
+          <li><strong>The dictation pill's buttons should open Settings.</strong> When Slash started without any window open, View setup, Sign in and Switch engine in the dictation pill could do nothing. They should now open Settings.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.84.0/Slash-1.84.0.dmg" length="32004892" type="application/octet-stream" sparkle:edSignature="/Svk0SZA8DDj7dEb3nzN9K0YveZEGA2wfl31I4OlDaxx8HPkpektqEpQqHdOpE/c5BC9knoAjOqjdedzAU4SAQ==" />
+    </item>
   </channel>
 </rss>
