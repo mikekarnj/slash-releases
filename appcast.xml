@@ -3780,5 +3780,49 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.82.0/Slash-1.82.0.dmg" length="31391578" type="application/octet-stream" sparkle:edSignature="MOGxmdZxgKBAALy+J2ksSRWl8DjiBPi+bDR9/xN6CTaJwhlW9pS8jnuGf3XS5jLoDpc05sHAYRjnnM9AX3zEBA==" />
     </item>
+    <item>
+      <title>Version 1.83.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.83.0</link>
+      <sparkle:version>149</sparkle:version>
+      <sparkle:shortVersionString>1.83.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>148</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>149</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Change a line's type from the selection bar.</strong> Select text in a note and use Turn into to make it text, a heading, a list, a checklist or a quote. The bar also gains strikethrough and an AI menu that runs your AI commands on the selected text.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>The / menu is short and quick to scan.</strong> Typing / in a note shows your recent picks and the basics: headings, lists, checklists, quotes and more. Type a few letters to search your commands too. Headings also come up for /#, /## and /###.</li>
+          <li><strong>Notes invite you to type /.</strong> A new note, and the empty line you're on, show "Type ‘/’ for headings, lists and more".</li>
+          <li><strong>Highlights are yellow.</strong> Text marked with ==highlight== or ⌘⇧M now shows in traditional yellow, in light and dark mode.</li>
+          <li><strong>Every saved link shows its site under the title.</strong> A small link line with the site's icon and name opens the page. New links other than posts no longer add a link card to the note.</li>
+          <li><strong>See a saved website's whole page in the note.</strong> The page fills the note's width and scrolls with it. In newly saved websites your writing goes above the page. Double-click it to open the website.</li>
+          <li><strong>Posts read more simply.</strong> A Reddit or other post shows its quoted words alone, and an X post card no longer has a View on X button; the link line opens the post.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Selecting a saved picture or card looks right.</strong> The ring follows the card's edge without a gap or a clipped top, and no stray caret shows at its corner.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.83.0/Slash-1.83.0.dmg" length="31407367" type="application/octet-stream" sparkle:edSignature="dVIY/eoxjRC6jQMbSEPaeGlSeduMg1u6hUr02IZrdjFlE6Xj0sGVGlchhuyfYD2IoTqFpE4Jzb6BcglcspoECA==" />
+    </item>
   </channel>
 </rss>
