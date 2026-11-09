@@ -3733,5 +3733,52 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.81.0/Slash-1.81.0.dmg" length="31169463" type="application/octet-stream" sparkle:edSignature="kD5jLXpmmoopkeNKLur2h0WMv3dURLeglLi+iq6r2MJ8FCBNmdBGVHt/u8jGdp7sUe4Gqx++J4B02DEq4A3/Dw==" />
     </item>
+    <item>
+      <title>Version 1.82.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.82.0</link>
+      <sparkle:version>148</sparkle:version>
+      <sparkle:shortVersionString>1.82.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>148</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>148</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>See saved websites as pictures.</strong> Eligible website links get a screenshot when you save them or choose Refresh card. Open the saved picture to view the whole page.</li>
+          <li><strong>Keep link pictures across devices.</strong> Link thumbnails and saved whole-page pictures now sync together when sync is enabled.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Write around saved links and photos.</strong> Their picture and card are part of the note: write above, between or below them, click to select, and delete or undo as you would text. Double-click opens them; the card’s arrow opens the page. Saved articles stay below your writing in the same scroll area.</li>
+          <li><strong>Restore a link or photo note’s earlier text.</strong> Version History includes these notes and can bring back a deleted picture or card.</li>
+          <li><strong>Pick a type in the search field.</strong> Click the Library search field or type a type’s name to find notes, links, images, files or commands. Files now live in All Items rather than a separate sidebar row.</li>
+          <li><strong>Captures have no automatic AI summaries.</strong> Saved articles and posts preview their own text. Summaries saved by older versions remain stored, but are no longer shown.</li>
+          <li><strong>Temporary capture failures retry automatically.</strong> Link enrichment resumes after a temporary failure, including after restarting Slash.</li>
+          <li><strong>Properties makes folders, links and tags easier to use.</strong> Folder menus show their colors, Source has a full-URL Copy button, and tag entry suggests existing tags.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Restored links recover their saved pictures.</strong> A Mac that expired its local trash while offline retrieves the picture when another device restores the link.</li>
+          <li><strong>List and Gallery keep your place.</strong> Switching views preserves the list width and selection without shifting the sidebar.</li>
+          <li><strong>Saved links handle Windows line breaks consistently.</strong></li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.82.0/Slash-1.82.0.dmg" length="31391578" type="application/octet-stream" sparkle:edSignature="MOGxmdZxgKBAALy+J2ksSRWl8DjiBPi+bDR9/xN6CTaJwhlW9pS8jnuGf3XS5jLoDpc05sHAYRjnnM9AX3zEBA==" />
+    </item>
   </channel>
 </rss>
