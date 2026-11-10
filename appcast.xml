@@ -3883,5 +3883,51 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.84.0/Slash-1.84.0.dmg" length="32004892" type="application/octet-stream" sparkle:edSignature="/Svk0SZA8DDj7dEb3nzN9K0YveZEGA2wfl31I4OlDaxx8HPkpektqEpQqHdOpE/c5BC9knoAjOqjdedzAU4SAQ==" />
     </item>
+    <item>
+      <title>Version 1.85.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.85.0</link>
+      <sparkle:version>151</sparkle:version>
+      <sparkle:shortVersionString>1.85.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>148</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>151</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Deleted commands go to Recently Deleted.</strong> Deleting a command moves it to Recently Deleted for 30 days, next to your deleted notes, so you can bring it back. It stops expanding right away. If its trigger was taken in the meantime, it comes back renamed, for example as /name-2. With sync on, your other Macs on this version show it in Recently Deleted too, and workspace backups include deleted commands. The command page no longer asks before deleting.</li>
+          <li><strong>Drag tags to nest them.</strong> Drop one tag on another in the Library sidebar to nest it, so #ideas becomes #work/ideas, and drag a nested tag to the strip under the list to move it back to the top. Drop notes on a tag to tag them.</li>
+          <li><strong>Find tags in the Slash Bar.</strong> Type # and part of a tag's name to see matching tags and sub-tags, so #ide finds #work/ideas, or choose New tag for a name you haven't used yet.</li>
+          <li><strong>Save into a sub-folder from the Slash Bar.</strong> Type +Work/Ideas and pick it to file into Work's Ideas folder. The + list shows sub-folders with their parent, and a missing folder is created in the right place.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Taller page previews.</strong> Saved websites keep up to twice as much of a long page in their screenshot, and the note shows "Getting page preview…" while the picture loads. Very long pages are still cut off at the bottom.</li>
+          <li><strong>Amazon products get their photo and price.</strong> A saved Amazon product link shows the product's photo and price instead of Amazon's icon. Refresh card fixes one you saved before.</li>
+          <li><strong>Pages you can't see without signing in save as bookmarks.</strong> Sign-in pages, and sites that refuse Slash's own page read, such as NYTimes, Etsy and eBay, save as a simple card with the site's icon instead of a picture of a login form or a blank card.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Saved Wikipedia articles start with the article.</strong> New saves no longer begin with template code like {{cite iucn …}}.</li>
+          <li><strong>Saved links get their title on more sites.</strong> When a page's title sits far down its code, the note now takes the title the page shares for links.</li>
+          <li><strong>Properties tags stay put across Macs.</strong> A Mac that updated from an older version could clear Properties tags, or bring back a deleted article, on your other Macs the next time it edited the note. It now leaves alone what it never saw.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.85.0/Slash-1.85.0.dmg" length="32335905" type="application/octet-stream" sparkle:edSignature="/r/zlzcPL9zb0p3UXHwbpfyFt98gmUkznnCGcCJX9a/bh8Im4ZBXI/FHaDXUPcjXsJyjFLsVzPZahe7IY/iQCQ==" />
+    </item>
   </channel>
 </rss>
