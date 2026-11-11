@@ -3929,5 +3929,43 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.85.0/Slash-1.85.0.dmg" length="32335905" type="application/octet-stream" sparkle:edSignature="/r/zlzcPL9zb0p3UXHwbpfyFt98gmUkznnCGcCJX9a/bh8Im4ZBXI/FHaDXUPcjXsJyjFLsVzPZahe7IY/iQCQ==" />
     </item>
+    <item>
+      <title>Version 1.86.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.86.0</link>
+      <sparkle:version>152</sparkle:version>
+      <sparkle:shortVersionString>1.86.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>148</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>152</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Your whole library is backed up automatically.</strong> Once a day, Slash keeps an encrypted backup on your Mac of your notes and tasks with their files and photos, commands with their images, folders, tags, quicklinks, Recently Deleted, histories and settings. It keeps the three most recent. Settings ▸ General ▸ Backup shows when the last one ran and has Back up now.</li>
+          <li><strong>Restore your library from a backup.</strong> Settings ▸ General ▸ Backup ▸ Restore… puts your notes, tasks, commands, folders and quicklinks back to a backup you pick, on this Mac and your synced devices. Slash backs up your library as it is first. Notes and commands you added since go to Recently Deleted; folders and quicklinks added since are removed. Your settings stay as they are, and histories only gain what the backup had.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>A deleted command keeps its photo.</strong> When a command's photo arrived from another Mac after the command was deleted there, the photo was lost; restoring the command from Recently Deleted now brings its photo back.</li>
+          <li><strong>Restored starter commands stay restored.</strong> Restore Starter Commands no longer sends a starter you'd deleted back to Recently Deleted on the next sync.</li>
+          <li><strong>Undo after renaming or moving a tag reaches the note you had open.</strong> ⌘Z now puts the old tag name back in that note too.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.86.0/Slash-1.86.0.dmg" length="32527260" type="application/octet-stream" sparkle:edSignature="bghuUqva/PxAqw19CJZvD9p5SmflxHS4Rc7ugVcvaOxbhUpfIWt7xHldL/1JyN525w7o0dt6LomOLodvwDAIBA==" />
+    </item>
   </channel>
 </rss>
