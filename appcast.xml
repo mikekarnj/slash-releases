@@ -4070,5 +4070,43 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.87.0/Slash-1.87.0.dmg" length="33166813" type="application/octet-stream" sparkle:edSignature="zV0x3rH+A25PlzaQ60p64VXE2cG+KvRWEMOb/wLztgQFzyx5NqoOPbDZhhthGKDghV83ZP4rAOL8+RvcTd+IDQ==" />
     </item>
+    <item>
+      <title>Version 1.87.1</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.87.1</link>
+      <sparkle:version>158</sparkle:version>
+      <sparkle:shortVersionString>1.87.1</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>148</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>158</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>Tables read as words in the notes list.</strong> A note with a table now previews the table's words instead of <code>|</code> characters and divider rows. The note itself is unchanged.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Damaged agent settings can be reset.</strong> If Slash can't read your agent settings, Settings ▸ Agents now offers <strong>Reset Agent Settings…</strong>. Agent permissions go to Off and excluded folders are cleared; Slash keeps a copy of the damaged file.</li>
+          <li><strong>Agent permissions show what you picked.</strong> Changing a permission in Settings ▸ Agents used to keep showing the old value until you reopened Slash.</li>
+          <li><strong>Arrow keys keep the selected row in view.</strong> After you scroll a list away from the selection, ↑ and ↓ bring the selected row fully back into view, clear of the faded edge, in the Library and the Slash Bar.</li>
+          <li><strong>Embedded notes keep comments hidden, and heading links find the right section.</strong> A <code>%%comment%%</code> that spans several lines no longer shows in an embedded note's card, and <code>[[Note#Second#Details]]</code> opens the Details under Second rather than the first one in the note.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.87.1/Slash-1.87.1.dmg" length="33530413" type="application/octet-stream" sparkle:edSignature="aXAwUtEt9IHlAqgcmPHXgQ0gjvZKW/EF3HOph2ZSKlG761YJbDkhF2MgcBpP4yqBo7SXWKhW+IDJhZGPZg3/DA==" />
+    </item>
   </channel>
 </rss>
