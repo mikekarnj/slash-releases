@@ -4029,5 +4029,46 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.86.2/Slash-1.86.2.dmg" length="32849397" type="application/octet-stream" sparkle:edSignature="2gjL6jNdZRtuOE5ksSeedVIKhcNSP+ie9b2TvDN0d5eQyP4YWCNvjCI66wHNVaPNcWK9WJqzppxJDE3N/joJAQ==" />
     </item>
+    <item>
+      <title>Version 1.87.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.87.0</link>
+      <sparkle:version>157</sparkle:version>
+      <sparkle:shortVersionString>1.87.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>148</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>157</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Notes show Obsidian-style formatting.</strong> Tables, callouts (<code>&gt; [!note]</code>), code blocks, footnotes and hidden <code>%%comments%%</code> now read as formatted text; click a table cell to edit its text. <code>[[Note#Heading]]</code> links open a note at that heading, <code>![[Note]]</code> shows another note's text in a card, and the selection bar's Highlight button offers six colours. Your note's text doesn't change, only how it looks.</li>
+          <li><strong>Keep folders away from AI agents.</strong> Settings ▸ Agents ▸ Excluded folders hides a folder, its sub-folders and everything in them from agents connected to this Mac: they can't list, search, read or add anything there. An excluded folder that still holds items can't be deleted until you move or delete them.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Slash looks like one app, with tighter corners.</strong> Buttons, rows, cards, menus and the Slash Bar have smaller, crisper corners. Chat now has the same header, spacing and text sizes as the rest of the Library.</li>
+          <li><strong>Menus look and close like menus.</strong> The sort menu, search type menu and tag picker share one look, and the sort menu drops down under its button with no arrow. Click outside, press Esc or click the button again to close it.</li>
+          <li><strong>The Slash scrollbar everywhere.</strong> The Slash Bar, Explore, sheets, pop-ups and lists that appear later now use the same thin scrollbar as the Library. A command page's scrollbar sits at the right edge of the page, as on a note.</li>
+          <li><strong>Lists show when there's more.</strong> A scrolling list fades softly at an edge only where more is hidden past it. Notes and other text you edit stay sharp.</li>
+          <li><strong>Less text to read.</strong> Settings, empty lists and nothing-selected screens drop lines that repeated their label or said the obvious.</li>
+          <li><strong>Icon buttons answer when you point at them.</strong> Small buttons such as the × on tags and chips, the Slash Bar's ← and +, the sidebar's Folders + and the note format bar now highlight on hover, show a tooltip and press in slightly when clicked.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.87.0/Slash-1.87.0.dmg" length="33166813" type="application/octet-stream" sparkle:edSignature="zV0x3rH+A25PlzaQ60p64VXE2cG+KvRWEMOb/wLztgQFzyx5NqoOPbDZhhthGKDghV83ZP4rAOL8+RvcTd+IDQ==" />
+    </item>
   </channel>
 </rss>
